@@ -34,6 +34,14 @@
       .nav-pills .nav-link.active {
         background-color: #faa4b4;
       }
+      .tabButton {
+        background-color: #ffb7c5;
+        color: #f8f8f8;
+        border: thin solid #faa4b4;
+      }
+      .offcanvas {
+        background-color: #8bbee9;
+      }
     </style>
   </head>
   <body>
@@ -94,6 +102,75 @@
       </div>
     </nav>
     <div class="container">
+      <div class="row">
+        <!-- Tabs at larger screen sizes -->
+        <div class="col d-none d-lg-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a href="" class="nav-link active">Tab1</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Tab2</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="" class="nav-link">Tab3</a>
+            </li> -->
+          </ul>
+        </div>
+        <!-- Tab end -->
+        <button
+          class="btn btn-primary d-block d-md-none tabButton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          Change Tab
+        </button>
+      </div>
+
+      <!-- Off Canvas Start -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Tab Selection
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Japan is a historically rich country with many interesting facets.
+            Visit these other tabs to discover more about Japan!
+          </div>
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Introduction to Japan</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Overview</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Off Canvas End -->
       <div class="row"><h2 class="subpageTitle">Land and Climate</h2></div>
     </div>
   </body>

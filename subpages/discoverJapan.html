@@ -34,6 +34,14 @@
       .nav-pills .nav-link.active {
         background-color: #faa4b4;
       }
+      .tabButton {
+        background-color: #ffb7c5;
+        color: #f8f8f8;
+        border: thin solid #faa4b4;
+      }
+      .offcanvas {
+        background-color: #8bbee9;
+      }
     </style>
   </head>
   <body>
@@ -105,20 +113,20 @@
             <li class="nav-item">
               <a href="" class="nav-link">Tab2</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="" class="nav-link">Tab3</a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <!-- Tab end -->
         <button
-          class="btn btn-primary d-md-none"
+          class="btn btn-primary d-block d-md-none tabButton"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasExample"
           aria-controls="offcanvasExample"
         >
-          Button with data-bs-target
+          Change Tab
         </button>
       </div>
 
@@ -130,7 +138,9 @@
         aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Tab Selection
+          </h5>
           <button
             type="button"
             class="btn-close"
@@ -140,8 +150,8 @@
         </div>
         <div class="offcanvas-body">
           <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            Japan is a historically rich country with many interesting facets.
+            Visit these other tabs to discover more about Japan!
           </div>
           <div class="dropdown mt-3">
             <button
@@ -152,9 +162,11 @@
               Dropdown button
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Introduction to Japan</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Overview</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
             </ul>
           </div>
         </div>
@@ -163,6 +175,7 @@
 
       <div class="row">
         <h2 class="subpageTitle">Discover Japan</h2>
+        <p></p>
       </div>
     </div>
   </body>
