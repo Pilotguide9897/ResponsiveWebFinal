@@ -1,0 +1,27 @@
+/* cultural tapestry images*/
+.cTap4{
+    height: 300px;
+    width: 470px;
+}
+.cTap4MD{
+width: 290px;
+height: 500px;
+}
+.cTap4LG{
+    width: 380px;
+    height: 340px;
+    }
+    .cTap4XL{
+        width: 450px;
+        height: 300px;
+    }
+body {
+    background-color: #8bbee9;
+  }
+  .nav-pills .nav-link {
+    background-color: #ffb7c5;
+    color: #f8f8f8;
+  }
+  .nav-pills .nav-link.active {
+    background-color: #faa4b4;
+  }
