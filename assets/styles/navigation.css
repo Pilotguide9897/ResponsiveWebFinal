@@ -1,3 +1,4 @@
+/* Main Header */
 #sakuraInsightsLogo {
   width: 100px;
   height: 100px;
@@ -16,4 +17,21 @@
 }
 #nav-list {
   font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Offcanvas and tabs */
+.nav-pills .nav-link {
+  background-color: #ffb7c5;
+  color: #f8f8f8;
+}
+.nav-pills .nav-link.active {
+  background-color: #faa4b4;
+}
+.tabButton {
+  background-color: #ffb7c5;
+  color: #f8f8f8;
+  border: thin solid #faa4b4;
+}
+.offcanvas {
+  background-color: #8bbee9;
 }

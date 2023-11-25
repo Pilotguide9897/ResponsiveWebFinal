@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Japan - Economical Horizon</title>
     <link rel="stylesheet" href="../assets/styles/navigation.css" />
+    <link rel="stylesheet" href="../assets/styles/typography.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,13 +35,21 @@
       .nav-pills .nav-link.active {
         background-color: #faa4b4;
       }
+      .tabButton {
+        background-color: #ffb7c5;
+        color: #f8f8f8;
+        border: thin solid #faa4b4;
+      }
+      .offcanvas {
+        background-color: #8bbee9;
+      }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg" id="navigationBar">
       <div class="container-fluid">
         <a
-          href="./index.html"
+          href="../index.html"
           class="navbar-brand websiteTitle"
           data-bs-toggle="tooltip"
           data-bs-placement="bottom"
@@ -65,27 +74,25 @@
         <div class="collapse navbar-collapse justify-content-end" id="nav-list">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="./subpages/discoverJapan.html" class="nav-link"
-                >Discover Japan</a
-              >
+              <a href="./discoverJapan.html" class="nav-link">Discover Japan</a>
             </li>
             <li class="nav-item">
-              <a href="./subpages/culturalTapestry.html" class="nav-link"
+              <a href="./culturalTapestry.html" class="nav-link"
                 >Cultural Tapestry</a
               >
             </li>
             <li class="nav-item">
-              <a href="./subpages/landAndClimate.html" class="nav-link"
+              <a href="./landAndClimate.html" class="nav-link"
                 >Land and Climate</a
               >
             </li>
             <li class="nav-item">
-              <a href="./subpages/historicalJourney.html" class="nav-link"
+              <a href="./historicalJourney.html" class="nav-link"
                 >Historical Journey</a
               >
             </li>
             <li class="nav-item">
-              <a href="./subpages/ecomonmicalHorizon.html" class="nav-link"
+              <a href="./ecomonmicalHorizon.html" class="nav-link"
                 >Economical Horizon</a
               >
             </li>
@@ -94,7 +101,119 @@
       </div>
     </nav>
     <div class="container">
+      <div class="row">
+        <!-- Tabs at larger screen sizes -->
+        <div class="col d-none d-md-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="tab"
+                data-bs-target="#ehTabOne"
+                type="button"
+                role="tab"
+              >
+                Overview
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#ehTabTwo"
+                type="button"
+                role="tab"
+              >
+                Overview
+              </button>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="" class="nav-link">Tab3</a>
+            </li> -->
+          </ul>
+        </div>
+        <!-- Tab end -->
+        <button
+          class="btn btn-primary d-block d-md-none tabButton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          Change Tab
+        </button>
+      </div>
+
+      <!-- Off Canvas Start -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Tab Selection
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Japan is a historically rich country with many interesting facets.
+            Visit these other tabs to discover more about Japan!
+          </div>
+          <div class="dropdown mt-3">
+            <!-- <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button> -->
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link active"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ehTabOne"
+                  type="button"
+                  role="tab"
+                >
+                  Introduction to Japan
+                </button>
+              </li>
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ehTabTwo"
+                  type="button"
+                  role="tab"
+                >
+                  Overview
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Off Canvas End -->
       <div class="row"><h2 class="subpageTitle">Economical Horizon</h2></div>
+      <div class="row">
+        <p>Placeholder text to sit at the top of the section.</p>
+      </div>
+      <!-- Tab content Start -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="ehTabOne" role="tabpanel">1</div>
+        <div class="tab-pane" id="ehTabTwo" role="tabpanel">2</div>
+        <div class="tab-pane" id="ehTabThree" role="tabpanel">3</div>
+      </div>
+      <!-- Tab content end -->
     </div>
   </body>
 </html>
