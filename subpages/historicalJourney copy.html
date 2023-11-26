@@ -101,60 +101,6 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row">
-        <!-- Tabs at larger screen sizes -->
-        <div class="col d-none d-md-block">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <button
-                class="nav-link active"
-                data-bs-toggle="tab"
-                data-bs-target="#hjTabOne"
-                type="button"
-                role="tab"
-              >
-                Historical Periods
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-link"
-                data-bs-toggle="tab"
-                data-bs-target="#hjTabTwo"
-                type="button"
-                role="tab"
-              >
-                Historical Figures
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-link"
-                data-bs-toggle="tab"
-                data-bs-target="#hjTabThree"
-                type="button"
-                role="tab"
-              >
-                Significant Events
-              </button>
-            </li>
-            <!-- <li class="nav-item">
-              <a href="" class="nav-link">Tab3</a>
-            </li> -->
-          </ul>
-        </div>
-        <!-- Tab end -->
-        <button
-          class="btn btn-primary d-block d-md-none tabButton"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasExample"
-          aria-controls="offcanvasExample"
-        >
-          Change Tab
-        </button>
-      </div>
-
       <!-- Off Canvas Start -->
       <div
         class="offcanvas offcanvas-start"
@@ -207,7 +153,7 @@
                   type="button"
                   role="tab"
                 >
-                  Historical Figures
+                  Significant Figures
                 </button>
               </li>
               <li class="nav-item mb-3">
@@ -218,7 +164,7 @@
                   type="button"
                   role="tab"
                 >
-                  Significant Events
+                  Noteworthy Events
                 </button>
               </li>
             </ul>
@@ -226,9 +172,11 @@
         </div>
       </div>
       <!-- Off Canvas End -->
-      <div class="row"><h2 class="subpageTitle">Historical Journey</h2></div>
       <div class="row">
-        <p>
+        <h2 class="subpageTitle mt-4 mb-4">Historical Journey (歴史的な旅)</h2>
+      </div>
+      <div class="row">
+        <p class="mb-4">
           Japan's history is a dynamic blend of ancient traditions and modern
           innovation, evolving from a series of isolated islands into a globally
           influential nation known for its unique culture, technological
@@ -238,11 +186,12 @@
           richness, and a distinct identity that resonates worldwide.
         </p>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <iframe
+          class="col-lg-6"
           width="560px"
           height="315px"
-          src="https://www.youtube.com/embed/_m9_ZiqLg5I&t=1s"
+          src="https://www.youtube.com/embed/_m9_ZiqLg5I?autoplay=1&mute=1"
           frameborder="0"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -250,24 +199,74 @@
         ></iframe>
       </div>
 
+      <div class="row mt-3 mb-3">
+        <!-- Tabs at larger screen sizes -->
+        <div class="col d-none d-md-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="tab"
+                data-bs-target="#hjTabOne"
+                type="button"
+                role="tab"
+              >
+                Historical Periods
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#hjTabTwo"
+                type="button"
+                role="tab"
+              >
+                Significant Figures
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#hjTabThree"
+                type="button"
+                role="tab"
+              >
+                Notable Events
+              </button>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="" class="nav-link">Tab3</a>
+            </li> -->
+          </ul>
+        </div>
+        <!-- Tab end -->
+        <button
+          class="btn btn-primary d-block d-md-none tabButton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          Change Tab
+        </button>
+      </div>
+
       <!-- Tab content Start -->
       <div class="tab-content">
         <div class="tab-pane active" id="hjTabOne" role="tabpanel">
+          <h3>Historical Periods</h3>
           <p>
             Japan's history can be organized into several distinct eras, each
             characterized by their own events, cultural advancements, and
-            politics. Although some disagreement exists concerning exactly the
+            politics. Although some disagreement exists concerning precisely the
             number of eras and how long each of these periods lasted. In
-            general, historians tend to divide Japan's history into 15 distinct
-            eras spanning across milennia into modernity. These eras are the
-            Jamon, Yayoi, Kofun, Asuka, Nara, Heian, Kamakura, Muromachi,
-            Azuchi-Momoyama, Edo, Meiji, Taisho, Showa, Heisei, and Reiwa
-            Periods.
-          </p>
-          <p>
-            Each of these eras has contributed to the unique tapestry of
-            Japanese history, culture, and identity and are explored in more
-            detail below.
+            general, however, historians tend to divide Japan's history into 15
+            distinct periods spanning across 5 eras and encompassing thousands
+            of years. These eras are the Jamon, Yayoi, Kofun, Asuka, Nara,
+            Heian, Kamakura, Muromachi, Azuchi-Momoyama, Edo, Meiji, Taisho,
+            Showa, Heisei, and Reiwa Periods.
           </p>
 
           <!-- Outer Accordion Start -->
@@ -284,7 +283,7 @@
                   aria-expanded="true"
                   aria-controls="flush-collapseOne"
                 >
-                  Prehistoric and Ancient Japan
+                  Ancient Japan
                 </button>
               </h2>
               <div
@@ -305,14 +304,15 @@
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Jomon Period (c. 14000-300BC): The Jomon Period marks
-                          the dawn of Japanese history with its hunter-gatherer
-                          societies and distinctive rope-patterned pottery.
+                          Jomon Period - 縄文時代 (c. 14000-300BC): The Jomon
+                          Period marks the dawn of Japanese history with its
+                          hunter-gatherer societies and distinctive
+                          rope-patterned pottery.
                         </button>
                       </h2>
                       <div
                         id="collapseOne"
-                        class="accordion-collapse collapse show"
+                        class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                       >
                         <div class="accordion-body">
@@ -341,10 +341,10 @@
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Yayoi Period (c. 300 BC–300 AD): An era that witnessed
-                          the advent of rice agriculture in Japan, laying the
-                          foundations for permanent settlements and social
-                          complexity.
+                          Yayoi Perio - 弥生時代 (c. 300 BC–300 AD): An era that
+                          witnessed the advent of rice agriculture in Japan,
+                          laying the foundations for permanent settlements and
+                          social complexity.
                         </button>
                       </h2>
                       <div
@@ -378,10 +378,10 @@
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Kofun Period (c. 300–538 AD): An era characterized by
-                          the construction of massive tomb mounds, the Kofun
-                          Period heralded the emergence of a powerful central
-                          authority.
+                          Kofun Period - 古墳時代 (c. 300–538 AD): An era
+                          characterized by the construction of massive tomb
+                          mounds, the Kofun Period heralded the emergence of a
+                          powerful central authority.
                         </button>
                       </h2>
                       <div
@@ -442,9 +442,10 @@
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Asuka Period (538–710 AD): The Asuka Period saw the
-                          introduction of Buddhism and significant cultural
-                          influence from the Korean Peninsula and China.
+                          Asuka Period - 飛鳥時代 (538–710 AD): The Asuka Period
+                          saw the introduction of Buddhism and significant
+                          cultural influence from the Korean Peninsula and
+                          China.
                         </button>
                       </h2>
                       <div
@@ -478,10 +479,10 @@
                           aria-expanded="false"
                           aria-controls="collapseFive"
                         >
-                          Nara Period (710–794 AD): An era that marked the
-                          establishment of Japan's first permanent capital in
-                          Nara, this period reflected a golden age of Buddhist
-                          art and culture.
+                          Nara Period - 奈良時代 (710–794 AD): An era that
+                          marked the establishment of Japan's first permanent
+                          capital in Nara, this period reflected a golden age of
+                          Buddhist art and culture.
                         </button>
                       </h2>
                       <div
@@ -515,9 +516,9 @@
                           aria-expanded="false"
                           aria-controls="collapseSix"
                         >
-                          Heian Period (794–1185 AD): Renowned for its refined
-                          court culture, the Heian Period birthed seminal
-                          Japanese literary and artistic works.
+                          Heian Period - 平安時代 (794–1185 AD): Renowned for
+                          its refined court culture, the Heian Period birthed
+                          seminal Japanese literary and artistic works.
                         </button>
                       </h2>
                       <div
@@ -578,10 +579,10 @@
                           aria-expanded="false"
                           aria-controls="collapseSeven"
                         >
-                          Kamakura Period (1185–1333 AD): A period that marked
-                          the rise of the samurai class and the establishment of
-                          Japan's first military government, the Kamakura
-                          shogunate.
+                          Kamakura Period - 鎌倉時代 (1185–1333 AD): A period
+                          that marked the rise of the samurai class and the
+                          establishment of Japan's first military government,
+                          the Kamakura shogunate.
                         </button>
                       </h2>
                       <div
@@ -615,10 +616,10 @@
                           aria-expanded="false"
                           aria-controls="collapseEight"
                         >
-                          Muromachi Period (1336–1573 AD): Dominated by the
-                          Ashikaga shogunate, the Muromachi Period was a time of
-                          political upheaval, leading to the tumultuous Sengoku
-                          (Warring States) period.
+                          Muromachi Period - 室町時代 (1336–1573 AD): Dominated
+                          by the Ashikaga shogunate, the Muromachi Period was a
+                          time of political upheaval, leading to the tumultuous
+                          Sengoku (Warring States) period.
                         </button>
                       </h2>
                       <div
@@ -716,10 +717,10 @@
                           aria-expanded="false"
                           aria-controls="collapseTen"
                         >
-                          Edo Period (1603–1868 AD): An era characterized by
-                          strict social order, isolationist policies, and
-                          cultural flourishing, the Edo Period was a time of
-                          peace under the Tokugawa shogunate.
+                          Edo Period - 江戸時代 (1603–1868 AD): An era
+                          characterized by strict social order, isolationist
+                          policies, and cultural flourishing, the Edo Period was
+                          a time of peace under the Tokugawa shogunate.
                         </button>
                       </h2>
                       <div
@@ -780,10 +781,10 @@
                           aria-expanded="false"
                           aria-controls="collapseEleven"
                         >
-                          Meiji Period (1868–1912 AD): An era that witnessed the
-                          transformation of Japan through rapid Westernization
-                          and modernization, transitioning from feudalism to a
-                          modern industrial state.
+                          Meiji Period - 明治時代 (1868–1912 AD): An era that
+                          witnessed the transformation of Japan through rapid
+                          Westernization and modernization, transitioning from
+                          feudalism to a modern industrial state.
                         </button>
                       </h2>
                       <div
@@ -817,9 +818,10 @@
                           aria-expanded="false"
                           aria-controls="collapseTwelve"
                         >
-                          Taisho Period (1912–1926 AD): A short era of increased
-                          political liberalization and western influence, that
-                          paved the way for Japan's democratic movements.
+                          Taisho Period - 大正時代 (1912–1926 AD): A short era
+                          of increased political liberalization and western
+                          influence, that paved the way for Japan's democratic
+                          movements.
                         </button>
                       </h2>
                       <div
@@ -853,9 +855,10 @@
                           aria-expanded="false"
                           aria-controls="collapseThirteen"
                         >
-                          Showa Period (1926–1989 AD): Encompassing World War II
-                          and Japan's economic recovery in the aftermath, the
-                          Showa Period was a time of extreme change and growth.
+                          Showa Period - 昭和時代 (1926–1989 AD): Encompassing
+                          World War II and Japan's economic recovery in the
+                          aftermath, the Showa Period was a time of extreme
+                          change and growth.
                         </button>
                       </h2>
                       <div
@@ -889,8 +892,8 @@
                           aria-expanded="false"
                           aria-controls="collapseFourteen"
                         >
-                          Heisei Period (1989–2019 AD): Characterized by
-                          significant economic challenges, technological
+                          Heisei Period - 平成時代 (1989–2019 AD): Characterized
+                          by significant economic challenges, technological
                           advancement, and a shift towards a more modern
                           society, the Heisei Period witnessed Japan navigate
                           many global changes.
@@ -927,10 +930,10 @@
                           aria-expanded="false"
                           aria-controls="collapseFifteen"
                         >
-                          Reiwa Period (2019 AD–present): The current Reiwa
-                          Period, reflecting a neww, forward facing era, that
-                          began with the enthronement of Emperor Naruhito in
-                          2019.
+                          Reiwa Period - 令和時代 (2019 AD–present): The current
+                          Reiwa Period, reflecting a neww, forward facing era,
+                          that began with the enthronement of Emperor Naruhito
+                          in 2019.
                         </button>
                       </h2>
                       <div
@@ -966,8 +969,135 @@
           <div class="accordion" id="accordionExample"></div>
           <!-- Accordion End -->
         </div>
-        <div class="tab-pane" id="hjTabTwo" role="tabpanel">2</div>
-        <div class="tab-pane" id="hjTabThree" role="tabpanel">3</div>
+        <div class="tab-pane" id="hjTabTwo" role="tabpanel">
+          <h3>Significant Figures</h3>
+          <p>
+            Japan's rich and diverse history is woven with the threads of
+            countless remarkable individuals who have shaped the nation's
+            destiny. From visionary emperors and statesmen to ingenious artists
+            and warriors, these significant figures have left an indelible mark
+            on Japan's cultural, political, and social landscape.
+          </p>
+        </div>
+        <div class="tab-pane" id="hjTabThree" role="tabpanel">
+          <h3>Notable Events</h3>
+          <p>
+            In its long and storied history, Japan has played host to several
+            noteworthy events. Although entire encycolopedic volumes could be
+            devoted solely to the task of chronicling such events in their
+            entirety, here are summaries of but a few of the most historically
+            significant events ever to occur in the land of the rising sun.
+          </p>
+          <div class="container">
+            <div class="row">
+              <h5>The Introduction of Buddhism</h5>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/significantEvents/indtroductionOfBuddhism.png"
+                  alt="Introduction of Buddhism"
+                />
+              </div>
+              <div class="col col-lg-6">
+                <h5>The Introduction of Buddhism</h5>
+              </div>
+            </div>
+            <div class="row"><h5>Mongol Invasions</h5></div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/significantEvents/mongolInvation.png"
+                  alt="Mongol Invasion of Japan"
+                />
+              </div>
+            </div>
+            <div class="row"><h5>Meiji Restoration</h5></div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row"><h5>World War II</h5></div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row"><h5>Occupation of Japan</h5></div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/significantEvents/occupationOfJapan.png"
+                  alt="Allied Occupation of Japan"
+                />
+              </div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row"><h5>Economic Miracle</h5></div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row"><h5>Battle of Sekigahara</h5></div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row">
+              <h5>Boshin War</h5>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row">
+              <h5>Sakoku (鎖国)</h5>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6"></div>
+            </div>
+
+            <div class="row">
+              <h5>Opening to the West</h5>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6"></div>
+              <div class="col col-lg-6">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/significantEvents/openingToTheWest.png"
+                  alt="The Opening of Japan to the West"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <h5>
+                Great East Japan Earthquake and Fukushima Nuclear Disaster
+              </h5>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/significantEvents/greatEastJapanEarthquake.png"
+                  alt="The Great East Japan Earthquake"
+                />
+              </div>
+              <div class="col col-lg-6"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Tab content end -->
     </div>
