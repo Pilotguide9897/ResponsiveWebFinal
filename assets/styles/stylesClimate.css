@@ -1,0 +1,35 @@
+body {
+    background-color: #8bbee9;
+  }
+  .nav-pills .nav-link {
+    background-color: #ffb7c5;
+    color: #f8f8f8;
+  }
+  .nav-pills .nav-link.active {
+    background-color: #faa4b4;
+  }
+  .tabButton {
+    background-color: #ffb7c5;
+    color: #f8f8f8;
+    border: thin solid #faa4b4;
+  }
+  .offcanvas {
+    background-color: #8bbee9;
+  }
+.landClimateImgsm{
+    height: 300px;
+   width: 500px;
+    
+}
+.landClimateImgmd{
+    height: 400px;
+    width: 300px;
+}
+.landClimateImglg{
+    width: 380px;
+    height: 340px;
+}
+.landClimateImgxl{
+    width: 450px;
+    height: 300px;
+}
