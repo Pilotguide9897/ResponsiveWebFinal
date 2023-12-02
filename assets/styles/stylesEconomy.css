@@ -33,3 +33,43 @@ body {
     width: 450px;
     height: 300px;
 }
+body {
+  background-color: #8bbee9;
+}
+/*
+#sakuraInsightsLogo {
+  width: 100px;
+  height: 100px;
+}
+#navigationBar {
+  background-image: url("assets/images/cherryBlossoms.jpg");
+  background-size: cover;
+}
+#navigationToggler {
+  background-color: #f8f8f8;
+}
+
+.websiteTitle {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+}
+#nav-list {
+  font-family: "Noto Sans JP", sans-serif;
+} */
+.homepageCard {
+  background-color: #ffb7c5;
+  border-color: #296799;
+}
+.homepageCardBtn {
+  background-color: #faa4b4;
+  border-color: #296799;
+}
+.homepageCardBtn:hover {
+  background-color: #296799;
+}
+.homepageCardBtn {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#carouselWithCaptions{
+  padding: 20px;
+}
