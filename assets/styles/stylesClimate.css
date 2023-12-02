@@ -33,3 +33,19 @@ body {
     width: 450px;
     height: 300px;
 }
+.cTap4{
+  height: 300px;
+  width: 470px;
+}
+.cTap4MD{
+width: 290px;
+height: 500px;
+}
+.cTap4LG{
+  width: 380px;
+  height: 340px;
+  }
+  .cTap4XL{
+      width: 450px;
+      height: 300px;
+  }
