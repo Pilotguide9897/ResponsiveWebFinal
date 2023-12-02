@@ -6,13 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Japan - Cultural Tapestry</title>
+    <title>Japan - Economical Horizon</title>
     <link
       rel="stylesheet"
       href="../assets/styles/navigation.css"
     />
-    <link rel="stylesheet" href="../assets/styles/navigation.css" />
-    <link rel="stylesheet" href="../assets/styles/typography.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/typography.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/stylesTapestry.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,35 +39,15 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/stylesEconomy.css"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="../assets/styles/stylesTapestry.css"
-    />
-    <style>
-      body {
-        background-color: #8bbee9;
-      }
-      .nav-pills .nav-link {
-        background-color: #ffb7c5;
-        color: #f8f8f8;
-      }
-      .nav-pills .nav-link.active {
-        background-color: #faa4b4;
-      }
-      .tabButton {
-        background-color: #ffb7c5;
-        color: #f8f8f8;
-        border: thin solid #faa4b4;
-      }
-      .offcanvas {
-        background-color: #8bbee9;
-      }
-    </style>
   </head>
   <body>
     <nav
@@ -98,25 +84,37 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="./discoverJapan.html" class="nav-link">Discover Japan</a>
+              <a
+                href="./discoverJapan.html"
+                class="nav-link"
+                >Discover Japan</a
+              >
             </li>
             <li class="nav-item">
-              <a href="./culturalTapestry.html" class="nav-link"
+              <a
+                href="./culturalTapestry.html"
+                class="nav-link"
                 >Cultural Tapestry</a
               >
             </li>
             <li class="nav-item">
-              <a href="./landAndClimate.html" class="nav-link"
+              <a
+                href="./landAndClimate.html"
+                class="nav-link"
                 >Land and Climate</a
               >
             </li>
             <li class="nav-item">
-              <a href="./historicalJourney.html" class="nav-link"
+              <a
+                href="./historicalJourney.html"
+                class="nav-link"
                 >Historical Journey</a
               >
             </li>
             <li class="nav-item">
-              <a href="./ecomonmicalHorizon.html" class="nav-link"
+              <a
+                href="./ecomonmicalHorizon.html"
+                class="nav-link"
                 >Economical Horizon</a
               >
             </li>
@@ -124,7 +122,6 @@
         </div>
       </div>
     </nav>
-
     <div class="container">
       <div class="row">
         <!-- Tabs at larger screen sizes -->
@@ -134,44 +131,22 @@
               <button
                 class="nav-link active"
                 data-bs-toggle="tab"
-                data-bs-target="#ctTabOne"
+                data-bs-target="#ehTabOne"
                 type="button"
                 role="tab"
               >
-                Overview
+                Japanese Culture
               </button>
             </li>
             <li class="nav-item">
               <button
                 class="nav-link"
                 data-bs-toggle="tab"
-                data-bs-target="#ctTabOne"
+                data-bs-target="#ehTabTwo"
                 type="button"
                 role="tab"
               >
-                Overview
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-link"
-                data-bs-toggle="tab"
-                data-bs-target="#ctTabOne"
-                type="button"
-                role="tab"
-              >
-                Overview
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-link"
-                data-bs-toggle="tab"
-                data-bs-target="#ctTabOne"
-                type="button"
-                role="tab"
-              >
-                Overview
+              People and Icons
               </button>
             </li>
             <!-- <li class="nav-item">
@@ -199,8 +174,11 @@
         aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-            Tab Selection
+          <h5
+            class="offcanvas-title"
+            id="offcanvasExampleLabel"
+          >
+            Sukara Insights
           </h5>
           <button
             type="button"
@@ -211,9 +189,8 @@
         </div>
         <div class="offcanvas-body">
           <div>
-            Japan's culture pervades every aspect of its history and daily life.
-            Use these tabs to learn more about Japanese culture, the people
-            shaped by this culture, and their traditons.
+            Japan is a historically rich country with many interesting facets.
+            Visit these other tabs to discover more about Japan!
           </div>
           <div class="dropdown mt-3">
             <!-- <button
@@ -223,27 +200,27 @@
             >
               Dropdown button
             </button> -->
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills flex-column">
               <li class="nav-item mb-3">
                 <button
                   class="nav-link active"
                   data-bs-toggle="tab"
-                  data-bs-target="#ctTabOne"
+                  data-bs-target="#ehTabOne"
                   type="button"
                   role="tab"
                 >
-                  Introduction to Japan
+                  Japanese Culture
                 </button>
               </li>
               <li class="nav-item mb-3">
                 <button
                   class="nav-link"
                   data-bs-toggle="tab"
-                  data-bs-target="#ctTabTwo"
+                  data-bs-target="#ehTabTwo"
                   type="button"
                   role="tab"
                 >
-                  Overview
+                  People and Icons
                 </button>
               </li>
             </ul>
@@ -251,22 +228,10 @@
         </div>
       </div>
       <!-- Off Canvas End -->
-
-      <div class="row">
-        <h2 class="subpageTitle">Cultural Tapestry</h2>
-      </div>
+      <div class="row"><h2 class="subpageTitle">Cultural Tapestry</h2></div>
       <div class="row">
         <p></p>
       </div>
-
-      <!-- Tab content Start -->
-      <div class="tab-content">
-        <div class="tab-pane active" id="ctTabOne" role="tabpanel">1</div>
-        <div class="tab-pane" id="ctTabTwo" role="tabpanel">2</div>
-        <div class="tab-pane" id="ctTabThree" role="tabpanel">3</div>
-      </div>
-      <!-- Tab content end -->
-
       <div class="row">
         <div
           id="carouselWithCaptions"
@@ -304,7 +269,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Culture</h5>
+                <h5>Economy</h5>
               </div>
             </div>
             <div class="carousel-item">
@@ -314,7 +279,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Traditions</h5>
+                <h5>Modern Life</h5>
               </div>
             </div>
             <div class="carousel-item">
@@ -324,7 +289,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>People</h5>
+                <h5>Technology</h5>
               </div>
             </div>
           </div>
@@ -354,146 +319,114 @@
           </button>
         </div>
       </div>
-      <div class="row">
-        <div class="row">
-          <h3 class="col-md-12"><br /></h3>
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/cTap4.jpg"
-            alt="Image render of Japanese characters having a good day in the city"
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/cTap4.jpg"
-            alt="Image render of Japanese characters having a good day in the city"
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/cTap4.jpg"
-            alt="Image render of Japanese characters having a good day in the city"
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/cTap4.jpg"
-            alt="Image render of Japanese characters having a good day in the city"
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Culture (文化)</h1>
-          Japanese culture is a rich tapestry woven with a harmonious blend of
-          tradition and modernity. Rooted in centuries-old customs and
-          influenced by Shinto and Buddhist beliefs, Japanese culture places a
-          strong emphasis on respect, harmony, and balance. Traditional arts
-          such as Noh and Kabuki theater, as well as the delicate sounds of the
-          koto and shamisen, showcase the nation's commitment to preserving its
-          artistic heritage. Yet, Japan is also a global leader in technology
-          and innovation, seamlessly blending ancient traditions with
-          cutting-edge advancements. Whether it's the meticulous craftsmanship
-          of sushi, the precision of martial arts like judo and kendo, or the
-          reverence for nature seen in garden design, Japanese culture is a
-          captivating journey through time that continues to captivate and
-          inspire people worldwide.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/gagaku.jpg"
-            alt="Image render of Japanese women dancing to the Gagaku"
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/gagaku.jpg"
-            alt="Image render of Japanese women dancing to the Gagaku"
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/gagaku.jpg"
-            alt="Image render of Japanese women dancing to the Gagaku"
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/gagaku.jpg"
-            alt="Image render of Japanese women dancing to the Gagaku"
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Gagaku(雅楽)</h1>
-          Gagaku, the ancient court music and dance of Japan, holds a unique and
-          revered place in the country's cultural heritage. Originating over a
-          millennium ago, gagaku includes a distinctive form of Japanese dance
-          that complements its musical counterpart. often characterized by slow,
-          deliberate movements and elaborate costumes, is an integral part of
-          the grand ceremonies and rituals performed at the imperial court.
-          Gagaku dance expresses profound symbolic meanings, with performers
-          embodying characters from folklore, mythology, or historical
-          narratives. Gagaku Japanese dance is a living testament to the
-          continuity of Japan's artistic legacy, connecting contemporary
-          audiences to the refined aesthetics and spiritual dimensions of the
-          country's ancient court traditions.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Cuisine.jpg"
-            alt="Image render of Japanese farmers market "
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Cuisine.jpg"
-            alt="Image render of Japanese farmers market "
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Cuisine.jpg"
-            alt="Image render of Japanese farmers market "
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Cuisine.jpg"
-            alt="Image render of Japanese farmers market "
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Cuisine(料理)</h1>
-          Japanese cuisine is a culinary art that seamlessly blends flavors,
-          aesthetics, and cultural traditions. Renowned for its emphasis on
-          fresh, seasonal ingredients and meticulous preparation, Japanese food
-          reflects a harmonious balance of taste, texture, and visual appeal.
-          Sushi, perhaps the most iconic element, showcases the art of combining
-          vinegared rice with various ingredients like fresh fish, vegetables,
-          and seaweed. Sashimi, thinly sliced raw fish, exemplifies the purity
-          of flavors that underlie Japanese gastronomy. Whether enjoying a
-          comforting bowl of ramen, savoring the delicate flavors of kaiseki
-          cuisine, or partaking in the communal experience of a hot pot meal,
-          Japanese cuisine is a celebration of culinary precision, aesthetic
-          presentation, and a deep connection to nature.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Careers.png"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Careers.png"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Careers.png"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Careers.png"
-            alt="Image render of Japanese people working "
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Careers(キャリア)</h1>
+      <!-- Tab content Start -->
+      <div class="tab-content">
+        <div
+          class="tab-pane active"
+          id="ehTabOne"
+          role="tabpanel"
+        >
+          <div class="row">
+            <div class="col-12 col-md-5">
+              <img
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/gagaku.jpg"
+                alt="Image render of Japanese women dancing to the Gagaku"
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/gagaku.jpg"
+                alt="Image render of Japanese women dancing to the Gagaku"
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/gagaku.jpg"
+                alt="Image render of Japanese women dancing to the Gagaku"
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/gagaku.jpg"
+                alt="Image render of Japanese women dancing to the Gagaku"
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Gagaku(雅楽)</h1>
+              Gagaku, the ancient court music and dance of Japan, holds a unique
+              and revered place in the country's cultural heritage. Originating
+              over a millennium ago, gagaku includes a distinctive form of
+              Japanese dance that complements its musical counterpart. often
+              characterized by slow, deliberate movements and elaborate
+              costumes, is an integral part of the grand ceremonies and rituals
+              performed at the imperial court. Gagaku dance expresses profound
+              symbolic meanings, with performers embodying characters from
+              folklore, mythology, or historical narratives. Gagaku Japanese
+              dance is a living testament to the continuity of Japan's artistic
+              legacy, connecting contemporary audiences to the refined
+              aesthetics and spiritual dimensions of the country's ancient court
+              traditions.
+            </div>
+            <div class="col-12 col-md-5">
+              <img
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/Cuisine.jpg"
+                alt="Image render of Japanese farmers market "
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/Cuisine.jpg"
+                alt="Image render of Japanese farmers market "
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/Cuisine.jpg"
+                alt="Image render of Japanese farmers market "
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/Cuisine.jpg"
+                alt="Image render of Japanese farmers market "
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Cuisine(料理)</h1>
+              Japanese cuisine is a culinary art that seamlessly blends flavors,
+              aesthetics, and cultural traditions. Renowned for its emphasis on
+              fresh, seasonal ingredients and meticulous preparation, Japanese
+              food reflects a harmonious balance of taste, texture, and visual
+              appeal. Sushi, perhaps the most iconic element, showcases the art
+              of combining vinegared rice with various ingredients like fresh
+              fish, vegetables, and seaweed. Sashimi, thinly sliced raw fish,
+              exemplifies the purity of flavors that underlie Japanese
+              gastronomy. Whether enjoying a comforting bowl of ramen, savoring
+              the delicate flavors of kaiseki cuisine, or partaking in the
+              communal experience of a hot pot meal, Japanese cuisine is a
+              celebration of culinary precision, aesthetic presentation, and a
+              deep connection to nature.
+            </div>
+            <div class="col-12 col-md-5">
+              <img
+              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+              src="../assets/images/Careers.png"
+              alt="Image render of Japanese people working "
+            />
+            <img
+              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+              src="../assets/images/Careers.png"
+              alt="Image render of Japanese people working "
+            />
+            <img
+              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+              src="../assets/images/Careers.png"
+              alt="Image render of Japanese people working "
+            />
+            <img
+              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+              src="../assets/images/Careers.png"
+              alt="Image render of Japanese people working "
+            />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Careers(キャリア)</h1>
           Jobs in Japan reflect a diverse and dynamic employment landscape. The
           country's workforce is characterized by a strong work ethic and a
           commitment to excellence. Traditional industries, such as
@@ -507,67 +440,31 @@
           Foreign professionals are increasingly finding opportunities in Japan,
           adding a global dimension to the workforce and enriching the country's
           business landscape.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Population (人口)</h1>
-          The Japanese people are known for their unique blend of tradition and
-          modernity. Renowned for their politeness, discipline, and strong work
-          ethic, they have made significant contributions to global advancements
-          in technology, art, and cuisine. Rooted in a deep respect for nature
-          and harmony, their cultural practices, such as tea ceremonies and
-          ikebana, reflect a commitment to balance and tranquility. Despite
-          embracing cutting-edge technology, the Japanese maintain a strong
-          connection to their past through festivals, rituals, and the enduring
-          influence of Shinto and Buddhist beliefs. Their resilience, community
-          spirit, and commitment to excellence make the Japanese a fascinating
-          and integral part of the global cultural landscape.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Religion.jpg"
-            alt="Image render of Japanese religious building"
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Religion.jpg"
-            alt="Image render of Japanese religious building"
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Religion.jpg"
-            alt="Image render of Japanese religious building"
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Religion.jpg"
-            alt="Image render of Japanese religious building"
-          />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Religion(宗教)</h1>
+            </div>
+            <div class="col-12 col-md-5">
+              <img
+              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+              src="../assets/images/Religion.jpg"
+              alt="Image render of Japanese religious building"
+            />
+            <img
+              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+              src="../assets/images/Religion.jpg"
+              alt="Image render of Japanese religious building"
+            />
+            <img
+              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+              src="../assets/images/Religion.jpg"
+              alt="Image render of Japanese religious building"
+            />
+            <img
+              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+              src="../assets/images/Religion.jpg"
+              alt="Image render of Japanese religious building"
+            />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Religion(宗教)</h1>
           Shinto and Buddhism are the predominant religions in Japan, shaping
           the cultural and spiritual landscape. Shinto, deeply rooted in
           indigenous beliefs, emphasizes the worship of kami (spirits) and a
@@ -580,48 +477,93 @@
           Buddhism reflects the adaptability and open-mindedness of the Japanese
           in integrating various aspects of their cultural and spiritual
           heritage.
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-5">
-          <img
+        <div
+          class="tab-pane"
+          id="ehTabTwo"
+          role="tabpanel"
+        >
+          <div class="row">
+            <div class="col-12 col-md-5">
+              <img
             class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Leadership.png"
-            alt="Image render of Japanese leaders"
+            src="../assets/images/Population.jpg"
+            alt="Image render of Japanese people working "
           />
           <img
             class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Leadership.png"
-            alt="Image render of Japanese leaders"
+            src="../assets/images/Population.jpg"
+            alt="Image render of Japanese people working "
           />
           <img
             class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Leadership.png"
-            alt="Image render of Japanese leaders"
+            src="../assets/images/Population.jpg"
+            alt="Image render of Japanese people working "
           />
           <img
             class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Leadership.png"
-            alt="Image render of Japanese leaders"
+            src="../assets/images/Population.jpg"
+            alt="Image render of Japanese people working "
           />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Leadership(リーダーシップ)</h1>
-          Japanese leaders, whether in political spheres or corporate
-          boardrooms, skillfully navigate the delicate dance between tradition
-          and modernity. Infused with a cultural ethos that prizes humility and
-          consensus-building, they prioritize the pursuit of harmony and
-          collective well-being. Historical figures like Emperor Meiji and
-          contemporary leaders such as Prime Minister Shinzo Abe serve as
-          exemplars of this delicate equilibrium, championing innovation while
-          upholding Japan's rich cultural heritage. In the business realm,
-          Japanese corporate leaders are renowned for their unwavering
-          dedication and emphasis on long-term perspectives, fostering loyalty
-          within their organizations. This nuanced approach, seamlessly blending
-          traditional values with forward-thinking strategies, underscores the
-          resilience and global success of Japanese leaders across various
-          domains.
-        </div>
-        <div class="col-12 col-md-5">
-          <img
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Population (人口)</h1>
+          The Japanese people are known for their unique blend of tradition and
+          modernity. Renowned for their politeness, discipline, and strong work
+          ethic, they have made significant contributions to global advancements
+          in technology, art, and cuisine. Rooted in a deep respect for nature
+          and harmony, their cultural practices, such as tea ceremonies and
+          ikebana, reflect a commitment to balance and tranquility. Despite
+          embracing cutting-edge technology, the Japanese maintain a strong
+          connection to their past through festivals, rituals, and the enduring
+          influence of Shinto and Buddhist beliefs. Their resilience, community
+          spirit, and commitment to excellence make the Japanese a fascinating
+          and integral part of the global cultural landscape.
+            </div>
+
+            <div class="col-12 col-md-5">
+              <img
+              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+              src="../assets/images/Leadership.png"
+              alt="Image render of Japanese leaders"
+            />
+            <img
+              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+              src="../assets/images/Leadership.png"
+              alt="Image render of Japanese leaders"
+            />
+            <img
+              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+              src="../assets/images/Leadership.png"
+              alt="Image render of Japanese leaders"
+            />
+            <img
+              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+              src="../assets/images/Leadership.png"
+              alt="Image render of Japanese leaders"
+            />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Leadership(リーダーシップ)</h1>
+              Japanese leaders, whether in political spheres or corporate
+              boardrooms, skillfully navigate the delicate dance between tradition
+              and modernity. Infused with a cultural ethos that prizes humility and
+              consensus-building, they prioritize the pursuit of harmony and
+              collective well-being. Historical figures like Emperor Meiji and
+              contemporary leaders such as Prime Minister Shinzo Abe serve as
+              exemplars of this delicate equilibrium, championing innovation while
+              upholding Japan's rich cultural heritage. In the business realm,
+              Japanese corporate leaders are renowned for their unwavering
+              dedication and emphasis on long-term perspectives, fostering loyalty
+              within their organizations. This nuanced approach, seamlessly blending
+              traditional values with forward-thinking strategies, underscores the
+              resilience and global success of Japanese leaders across various
+              domains.
+            </div>
+            <div class="col-12 col-md-5">
+              <img
             class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
             src="../assets/images/wealthy.jpg"
             alt="Image render of Japanese wealth"
@@ -641,9 +583,9 @@
             src="../assets/images/wealthy.jpg"
             alt="Image render of Japanese wealth"
           />
-        </div>
-        <div class="col-12 col-md-7">
-          <h1>Famous icons (有名なアイコン)</h1>
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Famous icons (有名なアイコン)</h1>
           Japan has produced a plethora of influential figures whose impact
           resonates globally. From the world of literature, Haruki Murakami
           stands out for his captivating and surreal storytelling that has
@@ -656,6 +598,16 @@
           exports on the global stage. These diverse and accomplished
           individuals collectively contribute to Japan's rich tapestry of talent
           and innovation, leaving an enduring legacy that transcends borders.
+            </div>
+            <div
+              class="tab-pane"
+              id="ehTabThree"
+              role="tabpanel"
+            >
+              3
+            </div>
+          </div>
+          <!-- Tab content end -->
         </div>
       </div>
     </div>
