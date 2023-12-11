@@ -46,105 +46,69 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" id="navigationBar">
-      <div class="container-fluid">
-        <a
-          href="../index.html"
-          class="navbar-brand websiteTitle"
-          data-bs-toggle="tooltip"
-          data-bs-placement="bottom"
-          title="Sakura Insights"
-        >
-          <img
-            class="d-none d-sm-inline"
-            src="../assets/Logo/SakuraInsights.png"
-            alt="Logo"
-            id="sakuraInsightsLogo"
-          />桜インサイト</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav-list"
-          id="navigationToggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="nav-list">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="./discoverJapan.html" class="nav-link">Discover Japan</a>
-            </li>
-            <li class="nav-item">
-              <a href="./culturalTapestry.html" class="nav-link"
-                >Cultural Tapestry</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./landAndClimate.html" class="nav-link"
-                >Land and Climate</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./historicalJourney.html" class="nav-link"
-                >Historical Journey</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./ecomonmicalHorizon.html" class="nav-link"
-                >Economical Horizon</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg" id="navigationBar">
+        <div class="container-fluid">
+          <a
+            href="../index.html"
+            class="navbar-brand websiteTitle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Sakura Insights"
+          >
+            <img
+              class="d-none d-sm-inline"
+              src="../assets/Logo/SakuraInsights.png"
+              alt="Logo"
+              id="sakuraInsightsLogo"
+            />桜インサイト</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-list"
+            id="navigationToggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="nav-list"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./discoverJapan.html" class="nav-link"
+                  >Discover Japan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./culturalTapestry.html" class="nav-link"
+                  >Cultural Tapestry</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./landAndClimate.html" class="nav-link"
+                  >Land and Climate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./historicalJourney.html" class="nav-link"
+                  >Historical Journey</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./ecomonmicalHorizon.html" class="nav-link"
+                  >Economical Horizon</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div class="container">
-      <div class="row">
-        <!-- Tabs at larger screen sizes -->
-        <div class="col d-none d-md-block">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <button
-                class="nav-link active"
-                data-bs-toggle="tab"
-                data-bs-target="#djTabOne"
-                type="button"
-                role="tab"
-              >
-                Overview
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="nav-link"
-                data-bs-toggle="tab"
-                data-bs-target="#djTabTwo"
-                type="button"
-                role="tab"
-              >
-                Overview
-              </button>
-            </li>
-            <!-- <li class="nav-item">
-              <a href="" class="nav-link">Tab3</a>
-            </li> -->
-          </ul>
-        </div>
-        <!-- Tab end -->
-        <button
-          class="btn btn-primary d-block d-md-none tabButton"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasExample"
-          aria-controls="offcanvasExample"
-        >
-          Change Tab
-        </button>
-      </div>
-
       <!-- Off Canvas Start -->
       <div
         class="offcanvas offcanvas-start"
@@ -165,17 +129,11 @@
         </div>
         <div class="offcanvas-body">
           <div>
-            Japan is a historically rich country with many interesting facets.
-            Visit these other tabs to discover more about Japan!
+            Discovering Japan is an experience like none other, blending the
+            allure of ancient traditions with the vibrancy of modern life. Visit
+            these other tabs to discover more about Japan!
           </div>
           <div class="dropdown mt-3">
-            <!-- <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-            >
-              Dropdown button
-            </button> -->
             <ul class="nav nav-pills flex-column">
               <li class="nav-item mb-3">
                 <button
@@ -185,7 +143,7 @@
                   type="button"
                   role="tab"
                 >
-                  Introduction to Japan
+                  Geographical Location
                 </button>
               </li>
               <li class="nav-item mb-3">
@@ -196,7 +154,29 @@
                   type="button"
                   role="tab"
                 >
-                  Overview
+                  National Iconography
+                </button>
+              </li>
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#djTabThree"
+                  type="button"
+                  role="tab"
+                >
+                  Date & Time
+                </button>
+              </li>
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="djcTabFour"
+                  type="button"
+                  role="tab"
+                >
+                  Demographics
                 </button>
               </li>
             </ul>
@@ -206,16 +186,240 @@
       <!-- Off Canvas End -->
 
       <div class="row">
-        <h2 class="subpageTitle">Discover Japan</h2>
+        <h1 class="subpageTitle">Discover Japan</h1>
       </div>
       <div class="row">
-        <p>Placeholder text to sit at the top of the section.</p>
+        <p>
+          Discovering Japan is an adventure into a land where ancient traditions
+          elegantly meld with futuristic innovation. From the serene beauty of
+          its temples and gardens to the neon-lit streets of its bustling
+          cities, Japan offers a captivating blend of history and modernity.
+          It's a place where one can witness the quiet ritual of a tea ceremony
+          in the morning and explore cutting-edge technology by afternoon. With
+          its rich cultural heritage, diverse landscapes, world-class cuisine,
+          and welcoming people, Japan presents an endless array of experiences,
+          each offering a unique glimpse into the heart of this fascinating
+          country. Whether you're drawn to its artistic expressions,
+          technological marvels, or the simple beauty of its natural scenery,
+          Japan is a destination that promises to enchant and inspire.
+        </p>
+      </div>
+      <div class="row mb-3">
+        <!-- Tabs at larger screen sizes -->
+        <div class="col d-none d-md-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="tab"
+                data-bs-target="#djTabOne"
+                type="button"
+                role="tab"
+              >
+                Geographical Location
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#djTabTwo"
+                type="button"
+                role="tab"
+              >
+                Date and Time
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#djTabThree"
+                type="button"
+                role="tab"
+              >
+                National Iconography
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#djTabFour"
+                type="button"
+                role="tab"
+              >
+                Demographics
+              </button>
+            </li>
+          </ul>
+        </div>
+        <!-- Tab end -->
+        <button
+          class="btn btn-primary d-block d-md-none tabButton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          Change Tab
+        </button>
       </div>
       <!-- Tab content Start -->
       <div class="tab-content">
-        <div class="tab-pane active" id="djTabOne" role="tabpanel">1</div>
-        <div class="tab-pane" id="djTabTwo" role="tabpanel">2</div>
-        <div class="tab-pane" id="djTabThree" role="tabpanel">3</div>
+        <div class="tab-pane active" id="djTabOne" role="tabpanel">
+          <div class="container">
+            <div class="row">
+              <h2>Geographical Location</h2>
+            </div>
+            <div class="row">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13695874.125915628!2d126.52475005242266!3d33.0638569234095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapan!5e0!3m2!1sen!2sca!4v1702316357118!5m2!1sen!2sca"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="row mt-3">
+                <p>
+                  Japan is an island nation located in East Asia, lying off the
+                  eastern coast of the Asian continent. With its primary land
+                  mass being found at approximately 36 degrees North Latitude
+                  and 138 degrees East longitude, the island nation is situated
+                  in the Pacific Ocean, to the east of China, Korea, and Russia,
+                  and is north of Taiwan. The country consists of an archipelago
+                  of 6,852 islands, with the four largest being Honshu,
+                  Hokkaido, Kyushu, and Shikoku, which together make up about
+                  ninety-seven percent of Japan's land area of approximately 377
+                  975 square kilometers.
+                </p>
+                <p>
+                  Geographically, Japan is located in a volcanic zone on the
+                  Pacific Ring of Fire. This location contributes to frequent
+                  earthquakes and the presence of numerous volcanoes and hot
+                  springs across the country. The most famous of these volcanoes
+                  is Mount Fuji, a dormant volcano and iconic symbol of Japan.
+                  The Japanese archipelago stretches nearly 3,000 kilometers
+                  northeast to southwest along the northeastern coast of the
+                  Eurasian continent. It ranges from the Sea of Okhotsk in the
+                  north to the East China Sea and Philippine Sea in the south.
+                </p>
+                <p>
+                  Japan's terrain is mostly rugged and mountainous, with varied
+                  climate conditions ranging from the cold temperate in the
+                  north (Hokkaido) to the subtropical in the south (Okinawa
+                  Prefecture). Japan's location has played a significant role in
+                  its development, providing it with a rich maritime heritage
+                  and influencing its unique culture and biodiversity. The
+                  surrounding seas and the diverse climatic zones have
+                  contributed to a wide variety of ecosystems and a richness in
+                  flora and fauna. The country's geographical isolation also
+                  fostered a distinct cultural evolution, which is evident in
+                  its customs, arts, and traditions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="djTabTwo" role="tabpanel">
+          <div class="container">
+            <div class="row">
+              <h2>Date & Time</h2>
+              <div class="row">
+                <p>
+                  Japan operates on Japan Standard Time (JST), which is 9 hours
+                  ahead of Coordinated Universal Time (UTC+9). This time zone is
+                  used throughout the year, as Japan does not observe daylight
+                  saving time. This means that the clocks in Japan are not
+                  adjusted forward or backward at any point in the year,
+                  maintaining a consistent time difference from UTC.
+                </p>
+                <p>
+                  As for the date, like Canada, Japan follows the Gregorian
+                  calendar, the standard calendar used globally. In addition to
+                  the Gregorian calendar, however, Japan also has a unique way
+                  of counting years based on the reign of the emperor, known as
+                  "nengō" or "gengō" (年号). Each period starts from the year a
+                  new emperor ascends the throne, and the period name changes
+                  with each new emperor. For instance, the current era, which
+                  began on May 1, 2019, is named "Reiwa" (令和), following the
+                  abdication of Emperor Akihito and the ascension of Emperor
+                  Naruhito. In daily life and most official documents, the
+                  Gregorian calendar year is commonly used, but you might also
+                  see the Japanese era year, especially on formal documents,
+                  government publications, and in other official contexts.
+                </p>
+                <p>
+                  Japan's geographical location also plays a role in its
+                  daylight hours. Depending on the season, daylight in Japan can
+                  start as early as around 4:30 AM in the summer months and
+                  sunrise can be as late as around 7:00 AM in the winter months.
+                  Sunset times also vary correspondingly. This natural variation
+                  in daylight hours can have an impact on daily life and
+                  activities in Japan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="djTabThree" role="tabpanel">
+          <div class="container">
+            <div class="row">
+              <h2>National Iconography</h2>
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="djTabFour" role="tabpanel">
+          <div class="container">
+            <div class="row">
+              <h2>Demographics</h2>
+              <div class="row">
+                <p>
+                  Japan's demographics are characterized by several distinctive
+                  features that have significant implications on Japanese
+                  society, culture, and their economy.
+                </p>
+                <p>
+                  Japan, with a population of approximately 125 million people,
+                  features one of the highest average life expectancies in the
+                  works, at approximately 84 years old, slightly longer than the
+                  average life expectance of 82 in Canada. Like Canada, Japanese
+                  citizens enjoy a high life expectancy that can be attributed
+                  to a variety of factors, including their diet, lifestyle, and
+                  strong healthcare system. Currently, Japan's population is
+                  skewed toward the elderly, with those 65 or above making up
+                  approximately 28% of the population. On the other hand,
+                  children age 0-14 make up a relatively small portion of the
+                  population, approximately 12-13%, standing out as one of the
+                  lowest in the world, and reflecting Japan's low birth rate. In
+                  fact, Japan's birth rate has been declining for decades,
+                  leading to a recent decline in the country's population The
+                  proportion of Japan's population in young adulthood, ages
+                  15-24 is similarly small, with the majority of Japan's
+                  population (~60%) falling in the working age population of
+                  25-64.
+                </p>
+                <p>
+                  Japan is a densely populated country with the majority of the
+                  population living in large urban areas, with large cities such
+                  as Tokyo, Yokohama, and Osaka being amongst the most densely
+                  populated areas featuring population densities of anywhere
+                  between (6000 and 12000 people per square kilometer). The
+                  population of Japan is primarily of Japanese descent, with
+                  only a small portion of the country's residents hailing from
+                  foreign countries. Overall, this means that Japan is less
+                  ethnically diverse than other countries such as Canada or
+                  those in the EU. Japan's gender distribution is split
+                  relatively evenly, with a slighly higher proportion of women
+                  due to their longer life expectancy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Tab content end -->
     </div>
