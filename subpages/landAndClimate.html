@@ -2,10 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Japan - Land and Climate</title>
-    <link rel="stylesheet" href="../assets/styles/navigation.css" />
-    <link rel="stylesheet" href="../assets/styles/typography.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Japan - Economical Horizon</title>
+    <link
+      rel="stylesheet"
+      href="../assets/styles/navigation.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/typography.css"
+    />
+    <link rel="stylesheet" href="../assets/styles/stylesClimate.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,40 +23,34 @@
       crossorigin="anonymous"
     />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/stylesEconomy.css"
     />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <style>
-      body {
-        background-color: #8bbee9;
-      }
-      .nav-pills .nav-link {
-        background-color: #ffb7c5;
-        color: #f8f8f8;
-      }
-      .nav-pills .nav-link.active {
-        background-color: #faa4b4;
-      }
-      .tabButton {
-        background-color: #ffb7c5;
-        color: #f8f8f8;
-        border: thin solid #faa4b4;
-      }
-      .offcanvas {
-        background-color: #8bbee9;
-      }
-    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" id="navigationBar">
+    <nav
+      class="navbar navbar-expand-lg"
+      id="navigationBar"
+    >
       <div class="container-fluid">
         <a
           href="../index.html"
@@ -71,28 +75,43 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="nav-list">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="nav-list"
+        >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="./discoverJapan.html" class="nav-link">Discover Japan</a>
+              <a
+                href="./discoverJapan.html"
+                class="nav-link"
+                >Discover Japan</a
+              >
             </li>
             <li class="nav-item">
-              <a href="./culturalTapestry.html" class="nav-link"
+              <a
+                href="./culturalTapestry.html"
+                class="nav-link"
                 >Cultural Tapestry</a
               >
             </li>
             <li class="nav-item">
-              <a href="./landAndClimate.html" class="nav-link"
+              <a
+                href="./landAndClimate.html"
+                class="nav-link"
                 >Land and Climate</a
               >
             </li>
             <li class="nav-item">
-              <a href="./historicalJourney.html" class="nav-link"
+              <a
+                href="./historicalJourney.html"
+                class="nav-link"
                 >Historical Journey</a
               >
             </li>
             <li class="nav-item">
-              <a href="./ecomonmicalHorizon.html" class="nav-link"
+              <a
+                href="./ecomonmicalHorizon.html"
+                class="nav-link"
                 >Economical Horizon</a
               >
             </li>
@@ -109,22 +128,22 @@
               <button
                 class="nav-link active"
                 data-bs-toggle="tab"
-                data-bs-target="#lcTabOne"
+                data-bs-target="#ehTabOne"
                 type="button"
                 role="tab"
               >
-                Overview
+                Geography
               </button>
             </li>
             <li class="nav-item">
               <button
                 class="nav-link"
                 data-bs-toggle="tab"
-                data-bs-target="#lcTabTwo"
+                data-bs-target="#ehTabTwo"
                 type="button"
                 role="tab"
               >
-                Overview
+                Climate
               </button>
             </li>
             <!-- <li class="nav-item">
@@ -152,8 +171,11 @@
         aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-            Tab Selection
+          <h5
+            class="offcanvas-title"
+            id="offcanvasExampleLabel"
+          >
+            Sukara Insights
           </h5>
           <button
             type="button"
@@ -180,33 +202,22 @@
                 <button
                   class="nav-link active"
                   data-bs-toggle="tab"
-                  data-bs-target="#lcTabOne"
+                  data-bs-target="#ehTabOne"
                   type="button"
                   role="tab"
                 >
-                  Introduction to Japan
+                  Geography
                 </button>
               </li>
               <li class="nav-item mb-3">
                 <button
                   class="nav-link"
                   data-bs-toggle="tab"
-                  data-bs-target="#lcTabTwo"
+                  data-bs-target="#ehTabTwo"
                   type="button"
                   role="tab"
                 >
-                  Overview
-                </button>
-              </li>
-              <li class="nav-item mb-3">
-                <button
-                  class="nav-link"
-                  data-bs-toggle="tab"
-                  data-bs-target="#lcTabThree"
-                  type="button"
-                  role="tab"
-                >
-                  Overview
+                  Climate 
                 </button>
               </li>
             </ul>
@@ -214,17 +225,344 @@
         </div>
       </div>
       <!-- Off Canvas End -->
-      <div class="row"><h2 class="subpageTitle">Land and Climate</h2></div>
+      <div class="row"><h2 class="subpageTitle">Land And Climate</h2></div>
       <div class="row">
-        <p>Placeholder text to sit at the top of the section.</p>
+        <p></p>
+      </div>
+      <div class="row">
+        <div
+          id="carouselWithCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../assets/images/climatecarol.png"
+                id="imgTap"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Climate</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/regioncarol.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Regions</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/season.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Seasons</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
       <!-- Tab content Start -->
       <div class="tab-content">
-        <div class="tab-pane active" id="lcTabOne" role="tabpanel">1</div>
-        <div class="tab-pane" id="lcTabTwo" role="tabpanel">2</div>
-        <div class="tab-pane" id="lcTabThree" role="tabpanel">3</div>
+        <div
+          class="tab-pane active"
+          id="ehTabOne"
+          role="tabpanel"
+        >
+          <div class="row">
+            
+            <div class="col-12 col-md-5">
+              <img
+              class="landClimateImgsm p-1 d-md-none d-lg-none d-xl-none "
+              src="../assets/images/climate.jpg"
+              alt="Render of the japanese geography"
+            />
+            <img
+              class="landClimateImgmd p-3 d-none d-lg-none d-xl-none d-md-block "
+              src="../assets/images/climate.jpg"
+              alt="Render of the japanese geography"
+            />
+            <img
+              class="landClimateImglg p-1 d-none d-md-none d-xl-none d-lg-block"
+              src="../assets/images/climate.jpg"
+              alt="Render of the japanese geography"
+            />
+            <img
+              class="landClimateImgxl p-1 d-none d-md-none d-lg-none d-xl-block"
+              src="../assets/images/climate.jpg"
+              alt="Render of the japanese geography"
+            />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Geography (地理)</h1>
+              Japan, an archipelago in East Asia, comprises four main
+              islands—Honshu, Hokkaido, Kyushu, and Shikoku—alongside numerous
+              smaller ones. Dominated by mountains, with over 70% of the land
+              covered in them, Japan is prone to earthquakes and volcanic activity
+              due to its location on tectonic plate boundaries. Mount Fuji stands as
+              a prominent symbol. The climate varies from subarctic in the north to
+              subtropical in the south, influenced by the surrounding seas and Asian
+              continent. This geography, marked by natural beauty and a mix of
+              traditional and modern features, defines Japan's distinct character.
+            </div>
+            <div class="col-12 col-md-5">
+              <img
+              class="landClimateImgsm  p-1 d-md-none d-lg-none d-xl-none "
+              src="../assets/images/forest.jpg"
+              alt="Render of a japanese forest"
+            />
+            <img
+              class="landClimateImgmd  p-3 d-none d-lg-none d-xl-none d-md-block "
+              src="../assets/images/forest.jpg"
+              alt="Render of a japanese forest"
+            />
+            <img
+              class="landClimateImglg p-1 d-none d-md-none d-xl-none d-lg-block "
+              src="../assets/images/forest.jpg"
+              alt="Render of a japanese forest"
+            />
+            <img
+              class="landClimateImgxl  p-1 d-none d-md-none d-lg-none d-xl-block"
+              src="../assets/images/forest.jpg"
+              alt="Render of a japanese forest"
+            />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>The Forests (森)</h1>
+          Japan boasts diverse and lush forests that cover approximately 67% of
+          its total land area. These forests exhibit a wide range of ecosystems,
+          from the dense evergreen forests of cedar and cypress trees in the
+          mountains to the deciduous forests found in lower elevations.
+          Noteworthy is the extensive Japanese cedar (sugi) and Japanese cypress
+          (hinoki) forests, which play a significant role in the country's
+          timber industry. These wooded landscapes also host a rich array of
+          flora and fauna, including iconic species like the Japanese macaque
+          and the sika deer. Conservation efforts are underway to protect these
+          forests and their biodiversity, recognizing their ecological
+          importance and contribution to Japan's cultural and natural heritage.
+            </div>
+            <div class="col-12 col-md-5">
+              <img
+            class="landClimateImgsm p-1  d-md-none d-lg-none d-xl-none"
+            src="../assets/images/kanto.jpg"
+            alt="Image render of the Kanto region in japan"
+          />
+          <img
+            class="landClimateImgmd  p-1 d-none d-lg-none d-xl-none d-md-block"
+            src="../assets/images/kanto.jpg"
+            alt="Image render of the Kanto region in japan"
+          />
+          <img
+            class="landClimateImglg  p-1 d-none d-md-none d-xl-none d-lg-block"
+            src="../assets/images/kanto.jpg"
+            alt="Image render of the Kanto region in japan"
+          />
+          <img
+            class="landClimateImgxl  p-1 d-none d-md-none d-lg-none d-xl-block"
+            src="../assets/images/kanto.jpg"
+            alt="Image render of the Kanto region in japan"
+          />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>Important Regions (重要な地域)</h1>
+              Japan comprises key regions, each playing a distinct role in the
+              country's identity. The Kanto region, centered around Tokyo, serves as
+              a political and economic nucleus. Kansai, with cities like Osaka and
+              Kyoto, is renowned for its cultural heritage. Chubu, anchored by
+              Nagoya, is an industrial and transportation hub. The northernmost
+              island, Hokkaido, offers stunning natural landscapes. Tohoku, in the
+              northeast, is known for its resilience and picturesque scenery.
+              Kyushu, in the southwest, is famed for unique cuisine and hot springs.
+              These regions collectively embody the diverse facets that make up
+              Japan's cultural and geographical mosaic.
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane"
+          id="ehTabTwo"
+          role="tabpanel"
+        >
+        
+        <div class="row">
+        
+          <div class="col-12 col-md-5">
+            <img
+            class="landClimateImgsm p-1 d-md-none d-lg-none d-xl-none "
+            src="../assets/images/climate2.jpg"
+            alt="Image render of Japanese climate"
+          />
+          <img
+            class="landClimateImgmd p-1 d-none d-lg-none d-xl-none d-md-block "
+            src="../assets/images/climate2.jpg"
+            alt="Image render of Japanese climate"
+          />
+          <img
+            class="landClimateImglg p-1 d-none d-md-none d-xl-none d-lg-block "
+            src="../assets/images/climate2.jpg"
+            alt="Image render of Japanese climate"
+          />
+          <img
+            class="landClimateImgxl p-1 d-none d-md-none d-lg-none d-xl-block"
+            src="../assets/images/climate2.jpg"
+            alt="Image render of Japanese climate"
+          />
+          </div>
+          <div class="col-12 col-md-7">
+            <h1>Climate(雅楽)</h1>
+          Japan experiences a diverse climate ranging from subarctic in the
+          north to subtropical in the south. This climatic variety is shaped by
+          the surrounding seas, including the Sea of Japan and the Pacific
+          Ocean, as well as the influence of the Asian continent. Winters can be
+          cold with heavy snowfall in northern regions, while southern areas
+          enjoy milder temperatures. Summers are generally hot and humid
+          nationwide, often accompanied by the rainy season. Typhoons, common in
+          late summer and early autumn, can bring heavy rains and strong winds.
+          This climatic tapestry contributes to the unique seasonal
+          characteristics and weather patterns that define Japan throughout the
+          year.
+          </div>
+          
+          <div class="col-12 col-md-5">
+            <img
+            class="landClimateImgsm p-1  d-md-none d-lg-none d-xl-none"
+            src="../assets/images/mountains.jpg"
+            alt="Image render of the mountains in japan"
+          />
+          <img
+            class="landClimateImgmd  p-1 d-none d-lg-none d-xl-none d-md-block"
+            src="../assets/images/mountains.jpg"
+            alt="Image render of the mountains in japan"
+          />
+          <img
+            class="landClimateImglg  p-1 d-none d-md-none d-xl-none d-lg-block"
+            src="../assets/images/mountains.jpg"
+            alt="Image render of the mountains in japan"
+          />
+          <img
+            class="landClimateImgxl  p-1 d-none d-md-none d-lg-none d-xl-block"
+            src="../assets/images/mountains.jpg"
+            alt="Image render of the mountains in japan"
+          />
+          </div>
+          <div class="col-12 col-md-7">
+            <h1>The 4 Seasons (四季)</h1>
+            Japan experiences four distinct seasons, each characterized by unique
+            climatic features and cultural significance. Spring, or "haru," is
+            celebrated for its iconic cherry blossoms (sakura), marking a time of
+            renewal and beauty. Summer, or "natsu," brings warm temperatures and
+            vibrant festivals, with traditional events like Hanabi (fireworks)
+            illuminating the night skies. Autumn, or "aki," is a season of
+            stunning foliage, with maple and ginkgo trees transforming the
+            landscapes into a vivid tapestry of red and gold. Winter, or "fuyu,"
+            sees colder temperatures and sometimes heavy snowfall, creating
+            picturesque scenes and providing opportunities for winter sports.
+          </div>
+          <div class="col-12 col-md-5">
+            <img
+            class="landClimateImgsm  p-1 d-md-none d-lg-none d-xl-none "
+            src="../assets/images/weather.jpg"
+            alt="Render of a japanese forest demonstrating the weather patterns"
+          />
+          <img
+            class="landClimateImgmd p-3 d-none d-lg-none d-xl-none d-md-block "
+            src="../assets/images/weather.jpg"
+            alt="Render of a japanese forest demonstrating the weather patterns"
+          />
+          <img
+            class="landClimateImglg  p-1 d-none d-md-none d-xl-none d-lg-block "
+            src="../assets/images/weather.jpg"
+            alt="Render of a japanese forest demonstrating the weather patterns"
+          />
+          <img
+            class="landClimateImgxl p-1 d-none d-md-none d-lg-none d-xl-block"
+            src="../assets/images/weather.jpg"
+            alt="Render of a japanese forest demonstrating the weather patterns"
+          />
+          </div>
+          <div class="col-12 col-md-7">
+            <h1>Weather Patterns(気象パターン)</h1>
+          Japan's weather patterns, shaped by its geographic location and
+          diverse topography, offer a fascinating glimpse into the country's
+          climatic variability. Winters witness the collision of cold Siberian
+          air and moist Pacific air, leading to significant snowfall along the
+          western coast. Summers are characterized by the East Asian monsoon,
+          coupled with occasional typhoons originating in the Pacific. The shift
+          between seasons introduces a distinct rainy season in early summer,
+          known as "tsuyu" or "baiu." These intricate weather dynamics create a
+          mosaic of climatic conditions that define Japan's atmospheric tapestry
+          throughout the year.
+          </div>
+        <div
+          class="tab-pane"
+          id="ehTabThree"
+          role="tabpanel"
+        >
+          3
+        </div>
       </div>
       <!-- Tab content end -->
+      
+      
+        
+       
+       
+        
+      </div>
     </div>
   </body>
 </html>
