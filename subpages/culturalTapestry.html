@@ -2,23 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Japan - Economical Horizon</title>
-    <link
-      rel="stylesheet"
-      href="../assets/styles/navigation.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../assets/styles/typography.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../assets/styles/stylesTapestry.css"
-    />
+    <link rel="stylesheet" href="../assets/styles/navigation.css" />
+    <link rel="stylesheet" href="../assets/styles/typography.css" />
+    <link rel="stylesheet" href="../assets/styles/stylesTapestry.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,23 +14,13 @@
       crossorigin="anonymous"
     />
     <!-- Fonts -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="../assets/styles/stylesEconomy.css"
-    />
+    <link rel="stylesheet" href="../assets/styles/stylesEconomy.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -50,82 +28,152 @@
     ></script>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg"
-      id="navigationBar"
-    >
-      <div class="container-fluid">
-        <a
-          href="../index.html"
-          class="navbar-brand websiteTitle"
-          data-bs-toggle="tooltip"
-          data-bs-placement="bottom"
-          title="Sakura Insights"
-        >
-          <img
-            class="d-none d-sm-inline"
-            src="../assets/Logo/SakuraInsights.png"
-            alt="Logo"
-            id="sakuraInsightsLogo"
-          />桜インサイト</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav-list"
-          id="navigationToggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="nav-list"
-        >
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                href="./discoverJapan.html"
-                class="nav-link"
-                >Discover Japan</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./culturalTapestry.html"
-                class="nav-link"
-                >Cultural Tapestry</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./landAndClimate.html"
-                class="nav-link"
-                >Land and Climate</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./historicalJourney.html"
-                class="nav-link"
-                >Historical Journey</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./ecomonmicalHorizon.html"
-                class="nav-link"
-                >Economical Horizon</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg" id="navigationBar">
+        <div class="container-fluid">
+          <a
+            href="../index.html"
+            class="navbar-brand websiteTitle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Sakura Insights"
+          >
+            <img
+              class="d-none d-sm-inline"
+              src="../assets/Logo/SakuraInsights.png"
+              alt="Logo"
+              id="sakuraInsightsLogo"
+            />桜インサイト</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-list"
+            id="navigationToggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="nav-list"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./discoverJapan.html" class="nav-link"
+                  >Discover Japan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./culturalTapestry.html" class="nav-link"
+                  >Cultural Tapestry</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./landAndClimate.html" class="nav-link"
+                  >Land and Climate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./historicalJourney.html" class="nav-link"
+                  >Historical Journey</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./ecomonmicalHorizon.html" class="nav-link"
+                  >Economical Horizon</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="container">
       <div class="row">
-        <!-- Tabs at larger screen sizes -->
-        <div class="col d-none d-md-block">
+        <div
+          id="carouselWithCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../assets/images/cTap.png"
+                id="imgTap"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Economy</h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/cTap2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Modern Life</h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/cTap3.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Technology</h5> -->
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="row"> -->
+      <!-- Tabs at larger screen sizes -->
+      <!-- <div class="col d-none d-md-block">
           <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
               <button
@@ -146,16 +194,13 @@
                 type="button"
                 role="tab"
               >
-              People and Icons
+                People and Icons
               </button>
             </li>
-            <!-- <li class="nav-item">
-              <a href="" class="nav-link">Tab3</a>
-            </li> -->
           </ul>
-        </div>
-        <!-- Tab end -->
-        <button
+        </div> -->
+      <!-- Tab end -->
+      <!-- <button
           class="btn btn-primary d-block d-md-none tabButton"
           type="button"
           data-bs-toggle="offcanvas"
@@ -164,7 +209,7 @@
         >
           Change Tab
         </button>
-      </div>
+      </div> -->
 
       <!-- Off Canvas Start -->
       <div
@@ -174,10 +219,7 @@
         aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header">
-          <h5
-            class="offcanvas-title"
-            id="offcanvasExampleLabel"
-          >
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
             Sukara Insights
           </h5>
           <button
@@ -228,104 +270,61 @@
         </div>
       </div>
       <!-- Off Canvas End -->
-      <div class="row"><h2 class="subpageTitle">Cultural Tapestry</h2></div>
+
+      <div class="row"><h1 class="subpageTitle">Cultural Tapestry</h1></div>
       <div class="row">
-        <p></p>
+        <p>
+          Japan's cultural tapestry is a rich and intricate weave of traditions
+          and modernity, reflecting a history that spans thousands of years. At
+          the heart of this culture lies a deep reverence for harmony,
+          precision, and respect, principles that are evident in every aspect of
+          Japanese life.
+        </p>
       </div>
-      <div class="row">
-        <div
-          id="carouselWithCaptions"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="../assets/images/cTap.png"
-                id="imgTap"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Economy</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="../assets/images/cTap2.png"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Modern Life</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="../assets/images/cTap3.png"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Technology</h5>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselWithCaptions"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselWithCaptions"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+      <div class="row mb-3">
+        <!-- Tabs at larger screen sizes -->
+        <div class="col d-none d-md-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="tab"
+                data-bs-target="#ehTabOne"
+                type="button"
+                role="tab"
+              >
+                Japanese Culture
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#ehTabTwo"
+                type="button"
+                role="tab"
+              >
+                People and Icons
+              </button>
+            </li>
+          </ul>
         </div>
+        <!-- Tab end -->
+        <button
+          class="btn btn-primary d-block d-md-none tabButton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          Change Tab
+        </button>
       </div>
+
       <!-- Tab content Start -->
       <div class="tab-content">
-        <div
-          class="tab-pane active"
-          id="ehTabOne"
-          role="tabpanel"
-        >
+        <div class="tab-pane active" id="ehTabOne" role="tabpanel">
           <div class="row">
             <div class="col-12 col-md-5">
               <img
@@ -405,207 +404,200 @@
             </div>
             <div class="col-12 col-md-5">
               <img
-              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-              src="../assets/images/Careers.png"
-              alt="Image render of Japanese people working "
-            />
-            <img
-              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-              src="../assets/images/Careers.png"
-              alt="Image render of Japanese people working "
-            />
-            <img
-              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-              src="../assets/images/Careers.png"
-              alt="Image render of Japanese people working "
-            />
-            <img
-              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-              src="../assets/images/Careers.png"
-              alt="Image render of Japanese people working "
-            />
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/Careers.png"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/Careers.png"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/Careers.png"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/Careers.png"
+                alt="Image render of Japanese people working "
+              />
             </div>
             <div class="col-12 col-md-7">
               <h1>Careers(キャリア)</h1>
-          Jobs in Japan reflect a diverse and dynamic employment landscape. The
-          country's workforce is characterized by a strong work ethic and a
-          commitment to excellence. Traditional industries, such as
-          manufacturing and technology, coexist with the modern demands of the
-          global economy. Many individuals work for large corporations known as
-          keiretsu, while others find opportunities in the growing sectors of
-          IT, robotics, and renewable energy. Japan's hospitality industry,
-          including jobs in tourism and service, also plays a significant role.
-          The work culture often emphasizes collaboration, dedication, and
-          lifelong employment, contributing to a stable yet evolving job market.
-          Foreign professionals are increasingly finding opportunities in Japan,
-          adding a global dimension to the workforce and enriching the country's
-          business landscape.
+              Jobs in Japan reflect a diverse and dynamic employment landscape.
+              The country's workforce is characterized by a strong work ethic
+              and a commitment to excellence. Traditional industries, such as
+              manufacturing and technology, coexist with the modern demands of
+              the global economy. Many individuals work for large corporations
+              known as keiretsu, while others find opportunities in the growing
+              sectors of IT, robotics, and renewable energy. Japan's hospitality
+              industry, including jobs in tourism and service, also plays a
+              significant role. The work culture often emphasizes collaboration,
+              dedication, and lifelong employment, contributing to a stable yet
+              evolving job market. Foreign professionals are increasingly
+              finding opportunities in Japan, adding a global dimension to the
+              workforce and enriching the country's business landscape.
             </div>
             <div class="col-12 col-md-5">
               <img
-              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-              src="../assets/images/Religion.jpg"
-              alt="Image render of Japanese religious building"
-            />
-            <img
-              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-              src="../assets/images/Religion.jpg"
-              alt="Image render of Japanese religious building"
-            />
-            <img
-              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-              src="../assets/images/Religion.jpg"
-              alt="Image render of Japanese religious building"
-            />
-            <img
-              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-              src="../assets/images/Religion.jpg"
-              alt="Image render of Japanese religious building"
-            />
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/Religion.jpg"
+                alt="Image render of Japanese religious building"
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/Religion.jpg"
+                alt="Image render of Japanese religious building"
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/Religion.jpg"
+                alt="Image render of Japanese religious building"
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/Religion.jpg"
+                alt="Image render of Japanese religious building"
+              />
             </div>
             <div class="col-12 col-md-7">
               <h1>Religion(宗教)</h1>
-          Shinto and Buddhism are the predominant religions in Japan, shaping
-          the cultural and spiritual landscape. Shinto, deeply rooted in
-          indigenous beliefs, emphasizes the worship of kami (spirits) and a
-          profound connection to nature. Meanwhile, Buddhism, introduced from
-          China and Korea, has played a significant role in shaping Japanese
-          philosophy and aesthetics. The coexistence of these two religions is a
-          testament to the Japanese people's ability to harmonize diverse
-          influences, creating a unique religious tapestry that influences daily
-          life, festivals, and ceremonies. The syncretic nature of Shinto and
-          Buddhism reflects the adaptability and open-mindedness of the Japanese
-          in integrating various aspects of their cultural and spiritual
-          heritage.
+              Shinto and Buddhism are the predominant religions in Japan,
+              shaping the cultural and spiritual landscape. Shinto, deeply
+              rooted in indigenous beliefs, emphasizes the worship of kami
+              (spirits) and a profound connection to nature. Meanwhile,
+              Buddhism, introduced from China and Korea, has played a
+              significant role in shaping Japanese philosophy and aesthetics.
+              The coexistence of these two religions is a testament to the
+              Japanese people's ability to harmonize diverse influences,
+              creating a unique religious tapestry that influences daily life,
+              festivals, and ceremonies. The syncretic nature of Shinto and
+              Buddhism reflects the adaptability and open-mindedness of the
+              Japanese in integrating various aspects of their cultural and
+              spiritual heritage.
             </div>
           </div>
         </div>
-        <div
-          class="tab-pane"
-          id="ehTabTwo"
-          role="tabpanel"
-        >
+        <div class="tab-pane" id="ehTabTwo" role="tabpanel">
           <div class="row">
             <div class="col-12 col-md-5">
               <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/Population.jpg"
-            alt="Image render of Japanese people working "
-          />
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/Population.jpg"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/Population.jpg"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/Population.jpg"
+                alt="Image render of Japanese people working "
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/Population.jpg"
+                alt="Image render of Japanese people working "
+              />
             </div>
             <div class="col-12 col-md-7">
               <h1>Population (人口)</h1>
-          The Japanese people are known for their unique blend of tradition and
-          modernity. Renowned for their politeness, discipline, and strong work
-          ethic, they have made significant contributions to global advancements
-          in technology, art, and cuisine. Rooted in a deep respect for nature
-          and harmony, their cultural practices, such as tea ceremonies and
-          ikebana, reflect a commitment to balance and tranquility. Despite
-          embracing cutting-edge technology, the Japanese maintain a strong
-          connection to their past through festivals, rituals, and the enduring
-          influence of Shinto and Buddhist beliefs. Their resilience, community
-          spirit, and commitment to excellence make the Japanese a fascinating
-          and integral part of the global cultural landscape.
+              The Japanese people are known for their unique blend of tradition
+              and modernity. Renowned for their politeness, discipline, and
+              strong work ethic, they have made significant contributions to
+              global advancements in technology, art, and cuisine. Rooted in a
+              deep respect for nature and harmony, their cultural practices,
+              such as tea ceremonies and ikebana, reflect a commitment to
+              balance and tranquility. Despite embracing cutting-edge
+              technology, the Japanese maintain a strong connection to their
+              past through festivals, rituals, and the enduring influence of
+              Shinto and Buddhist beliefs. Their resilience, community spirit,
+              and commitment to excellence make the Japanese a fascinating and
+              integral part of the global cultural landscape.
             </div>
 
             <div class="col-12 col-md-5">
               <img
-              class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-              src="../assets/images/Leadership.png"
-              alt="Image render of Japanese leaders"
-            />
-            <img
-              class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-              src="../assets/images/Leadership.png"
-              alt="Image render of Japanese leaders"
-            />
-            <img
-              class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-              src="../assets/images/Leadership.png"
-              alt="Image render of Japanese leaders"
-            />
-            <img
-              class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-              src="../assets/images/Leadership.png"
-              alt="Image render of Japanese leaders"
-            />
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/Leadership.png"
+                alt="Image render of Japanese leaders"
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/Leadership.png"
+                alt="Image render of Japanese leaders"
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/Leadership.png"
+                alt="Image render of Japanese leaders"
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/Leadership.png"
+                alt="Image render of Japanese leaders"
+              />
             </div>
             <div class="col-12 col-md-7">
               <h1>Leadership(リーダーシップ)</h1>
               Japanese leaders, whether in political spheres or corporate
-              boardrooms, skillfully navigate the delicate dance between tradition
-              and modernity. Infused with a cultural ethos that prizes humility and
-              consensus-building, they prioritize the pursuit of harmony and
-              collective well-being. Historical figures like Emperor Meiji and
-              contemporary leaders such as Prime Minister Shinzo Abe serve as
-              exemplars of this delicate equilibrium, championing innovation while
-              upholding Japan's rich cultural heritage. In the business realm,
-              Japanese corporate leaders are renowned for their unwavering
-              dedication and emphasis on long-term perspectives, fostering loyalty
-              within their organizations. This nuanced approach, seamlessly blending
-              traditional values with forward-thinking strategies, underscores the
-              resilience and global success of Japanese leaders across various
-              domains.
+              boardrooms, skillfully navigate the delicate dance between
+              tradition and modernity. Infused with a cultural ethos that prizes
+              humility and consensus-building, they prioritize the pursuit of
+              harmony and collective well-being. Historical figures like Emperor
+              Meiji and contemporary leaders such as Prime Minister Shinzo Abe
+              serve as exemplars of this delicate equilibrium, championing
+              innovation while upholding Japan's rich cultural heritage. In the
+              business realm, Japanese corporate leaders are renowned for their
+              unwavering dedication and emphasis on long-term perspectives,
+              fostering loyalty within their organizations. This nuanced
+              approach, seamlessly blending traditional values with
+              forward-thinking strategies, underscores the resilience and global
+              success of Japanese leaders across various domains.
             </div>
             <div class="col-12 col-md-5">
               <img
-            class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
-            src="../assets/images/wealthy.jpg"
-            alt="Image render of Japanese wealth"
-          />
-          <img
-            class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
-            src="../assets/images/wealthy.jpg"
-            alt="Image render of Japanese wealth"
-          />
-          <img
-            class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
-            src="../assets/images/wealthy.jpg"
-            alt="Image render of Japanese wealth"
-          />
-          <img
-            class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
-            src="../assets/images/wealthy.jpg"
-            alt="Image render of Japanese wealth"
-          />
+                class="cTap4 p-1 d-md-none d-lg-none d-xl-none"
+                src="../assets/images/wealthy.jpg"
+                alt="Image render of Japanese wealth"
+              />
+              <img
+                class="cTap4MD p-1 d-none d-lg-none d-xl-none d-md-block"
+                src="../assets/images/wealthy.jpg"
+                alt="Image render of Japanese wealth"
+              />
+              <img
+                class="cTap4LG p-1 d-none d-md-none d-xl-none d-lg-block"
+                src="../assets/images/wealthy.jpg"
+                alt="Image render of Japanese wealth"
+              />
+              <img
+                class="cTap4XL p-1 d-none d-md-none d-lg-none d-xl-block"
+                src="../assets/images/wealthy.jpg"
+                alt="Image render of Japanese wealth"
+              />
             </div>
             <div class="col-12 col-md-7">
               <h1>Famous icons (有名なアイコン)</h1>
-          Japan has produced a plethora of influential figures whose impact
-          resonates globally. From the world of literature, Haruki Murakami
-          stands out for his captivating and surreal storytelling that has
-          garnered international acclaim. In the realm of technology, figures
-          like Masayoshi Son, the founder of SoftBank, have played pivotal roles
-          in shaping the digital landscape. Renowned filmmakers such as Akira
-          Kurosawa have left an indelible mark on world cinema with their
-          groundbreaking contributions. Additionally, figures like Hikaru Utada,
-          a widely celebrated singer-songwriter, have showcased Japan's cultural
-          exports on the global stage. These diverse and accomplished
-          individuals collectively contribute to Japan's rich tapestry of talent
-          and innovation, leaving an enduring legacy that transcends borders.
+              Japan has produced a plethora of influential figures whose impact
+              resonates globally. From the world of literature, Haruki Murakami
+              stands out for his captivating and surreal storytelling that has
+              garnered international acclaim. In the realm of technology,
+              figures like Masayoshi Son, the founder of SoftBank, have played
+              pivotal roles in shaping the digital landscape. Renowned
+              filmmakers such as Akira Kurosawa have left an indelible mark on
+              world cinema with their groundbreaking contributions.
+              Additionally, figures like Hikaru Utada, a widely celebrated
+              singer-songwriter, have showcased Japan's cultural exports on the
+              global stage. These diverse and accomplished individuals
+              collectively contribute to Japan's rich tapestry of talent and
+              innovation, leaving an enduring legacy that transcends borders.
             </div>
-            <div
-              class="tab-pane"
-              id="ehTabThree"
-              role="tabpanel"
-            >
-              3
-            </div>
+            <div class="tab-pane" id="ehTabThree" role="tabpanel">3</div>
           </div>
           <!-- Tab content end -->
         </div>

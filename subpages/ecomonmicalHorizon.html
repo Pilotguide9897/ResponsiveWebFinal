@@ -46,80 +46,236 @@
     ></script>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg"
-      id="navigationBar"
-    >
-      <div class="container-fluid">
-        <a
-          href="../index.html"
-          class="navbar-brand websiteTitle"
-          data-bs-toggle="tooltip"
-          data-bs-placement="bottom"
-          title="Sakura Insights"
-        >
-          <img
-            class="d-none d-sm-inline"
-            src="../assets/Logo/SakuraInsights.png"
-            alt="Logo"
-            id="sakuraInsightsLogo"
-          />桜インサイト</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav-list"
-          id="navigationToggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="nav-list"
-        >
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                href="./discoverJapan.html"
-                class="nav-link"
-                >Discover Japan</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./culturalTapestry.html"
-                class="nav-link"
-                >Cultural Tapestry</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./landAndClimate.html"
-                class="nav-link"
-                >Land and Climate</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./historicalJourney.html"
-                class="nav-link"
-                >Historical Journey</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="./ecomonmicalHorizon.html"
-                class="nav-link"
-                >Economical Horizon</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg"
+        id="navigationBar"
+      >
+        <div class="container-fluid">
+          <a
+            href="../index.html"
+            class="navbar-brand websiteTitle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Sakura Insights"
+          >
+            <img
+              class="d-none d-sm-inline"
+              src="../assets/Logo/SakuraInsights.png"
+              alt="Logo"
+              id="sakuraInsightsLogo"
+            />桜インサイト</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-list"
+            id="navigationToggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="nav-list"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  href="./discoverJapan.html"
+                  class="nav-link"
+                  >Discover Japan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./culturalTapestry.html"
+                  class="nav-link"
+                  >Cultural Tapestry</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./landAndClimate.html"
+                  class="nav-link"
+                  >Land and Climate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./historicalJourney.html"
+                  class="nav-link"
+                  >Historical Journey</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./ecomonmicalHorizon.html"
+                  class="nav-link"
+                  >Economical Horizon</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+
+      <!-- Off Canvas Start -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5
+            class="offcanvas-title"
+            id="offcanvasExampleLabel"
+          >
+            Sukara Insights
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Japan is an economic powerhouse heavily involved in the world market. Visit these other tabs to discover more about Japan!
+          </div>
+          <div class="dropdown mt-3">
+            <!-- <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button> -->
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link active"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ehTabOne"
+                  type="button"
+                  role="tab"
+                >
+                  Modern Life In Japan
+                </button>
+              </li>
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ehTabTwo"
+                  type="button"
+                  role="tab"
+                >
+                  The Economy
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="container">
+      <!-- Off Canvas End -->
       <div class="row">
+        <div
+          id="carouselWithCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselWithCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../assets/images/ecoCarol.png"
+                id="imgTap"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Economy</h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/modernlife.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Modern Life</h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/images/techcarol.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Technology</h5> -->
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselWithCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+            <div class="row"><h1 class="subpageTitle">Economical Horizon</h1></div>
+      <div class="row">
+        <p>Japan boasts one of the world's largest and most advanced economies, known for its remarkable blend of traditional industries and technological innovation. As a major global player in technology, automotive manufacturing, and electronics, Japan is home to renowned multinational corporations and brands. The nation's economic strength is also supported by a robust service sector and a highly skilled workforce. Despite facing challenges such as an aging population and environmental constraints, Japan continues to be a key economic power, driving significant developments in technology and global trade.</p>
+      </div>
+            <div class="row mb-3">
         <!-- Tabs at larger screen sizes -->
         <div class="col d-none d-md-block">
           <ul class="nav nav-pills nav-fill">
@@ -162,159 +318,6 @@
         </button>
       </div>
 
-      <!-- Off Canvas Start -->
-      <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div class="offcanvas-header">
-          <h5
-            class="offcanvas-title"
-            id="offcanvasExampleLabel"
-          >
-            Sukara Insights
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Japan is a historically rich country with many interesting facets.
-            Visit these other tabs to discover more about Japan!
-          </div>
-          <div class="dropdown mt-3">
-            <!-- <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-            >
-              Dropdown button
-            </button> -->
-            <ul class="nav nav-pills flex-column">
-              <li class="nav-item mb-3">
-                <button
-                  class="nav-link active"
-                  data-bs-toggle="tab"
-                  data-bs-target="#ehTabOne"
-                  type="button"
-                  role="tab"
-                >
-                  Modern Life In Japan
-                </button>
-              </li>
-              <li class="nav-item mb-3">
-                <button
-                  class="nav-link"
-                  data-bs-toggle="tab"
-                  data-bs-target="#ehTabTwo"
-                  type="button"
-                  role="tab"
-                >
-                  The Economy
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Off Canvas End -->
-      <div class="row"><h2 class="subpageTitle">Economical Horizon</h2></div>
-      <div class="row">
-        <p></p>
-      </div>
-      <div class="row">
-        <div
-          id="carouselWithCaptions"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselWithCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="../assets/images/ecoCarol.png"
-                id="imgTap"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Economy</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="../assets/images/modernlife.png"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Modern Life</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="../assets/images/techcarol.png"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Technology</h5>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselWithCaptions"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselWithCaptions"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
       <!-- Tab content Start -->
       <div class="tab-content">
         <div
