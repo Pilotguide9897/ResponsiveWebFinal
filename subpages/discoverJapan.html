@@ -189,7 +189,7 @@
         <h1 class="subpageTitle">Discover Japan</h1>
       </div>
       <div class="row">
-        <p>
+        <p class="text-center">
           Discovering Japan is an adventure into a land where ancient traditions
           elegantly meld with futuristic innovation. From the serene beauty of
           its temples and gardens to the neon-lit streets of its bustling
@@ -407,7 +407,7 @@
                   population living in large urban areas, with large cities such
                   as Tokyo, Yokohama, and Osaka being amongst the most densely
                   populated areas featuring population densities of anywhere
-                  between (6000 and 12000 people per square kilometer). The
+                  between 6000 and 12000 people per square kilometer. The
                   population of Japan is primarily of Japanese descent, with
                   only a small portion of the country's residents hailing from
                   foreign countries. Overall, this means that Japan is less
@@ -423,5 +423,13 @@
       </div>
       <!-- Tab content end -->
     </div>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
   </body>
 </html>

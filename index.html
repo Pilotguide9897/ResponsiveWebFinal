@@ -49,73 +49,88 @@
       } */
       .homepageCard {
         background-color: #ffb7c5;
+        border-color: #296799;
       }
       .homepageCardBtn {
         background-color: #faa4b4;
         border-color: #296799;
-      }
-      .homepageCardBtn {
         font-family: "Noto Sans JP", sans-serif;
       }
+      .homepageCardBtn:hover {
+        background-color: #296799;
+      }
+      /* h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+      } */
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" id="navigationBar">
-      <div class="container-fluid">
-        <a
-          href="./index.html"
-          class="navbar-brand websiteTitle"
-          data-bs-toggle="tooltip"
-          data-bs-placement="bottom"
-          title="Sakura Insights"
-        >
-          <img
-            class="d-none d-sm-inline"
-            src="./assets/Logo/SakuraInsights.png"
-            alt="Logo"
-            id="sakuraInsightsLogo"
-          />桜インサイト</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav-list"
-          id="navigationToggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="nav-list">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="./subpages/discoverJapan.html" class="nav-link"
-                >Discover Japan</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./subpages/culturalTapestry.html" class="nav-link"
-                >Cultural Tapestry</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./subpages/landAndClimate.html" class="nav-link"
-                >Land and Climate</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./subpages/historicalJourney.html" class="nav-link"
-                >Historical Journey</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./subpages/ecomonmicalHorizon.html" class="nav-link"
-                >Economical Horizon</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg" id="navigationBar">
+        <div class="container-fluid">
+          <a
+            href="./index.html"
+            class="navbar-brand websiteTitle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Sakura Insights"
+          >
+            <img
+              class="d-none d-sm-inline img-fluid"
+              src="./assets/Logo/SakuraInsights.png"
+              alt="Logo"
+              id="sakuraInsightsLogo"
+            />桜インサイト</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-list"
+            id="navigationToggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="nav-list"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./subpages/discoverJapan.html" class="nav-link"
+                  >Discover Japan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./subpages/culturalTapestry.html" class="nav-link"
+                  >Cultural Tapestry</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./subpages/landAndClimate.html" class="nav-link"
+                  >Land and Climate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./subpages/historicalJourney.html" class="nav-link"
+                  >Historical Journey</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./subpages/ecomonmicalHorizon.html" class="nav-link"
+                  >Economical Horizon</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -131,7 +146,8 @@
                 usual everyday routine.
               </p>
               <footer class="blockquote-footer">
-                D.T. Suzuki, professor of Buddhist philosophy
+                D.T. Suzuki, Japanese essayist, philosopher, and religious
+                scholar
               </footer>
             </blockquote>
           </div>
@@ -144,7 +160,7 @@
         <div class="card mb-3 col-md-6 col-lg-4 homepageCard">
           <img
             src="./assets/images/discoverJapan.png"
-            class="card-img-top pt-2"
+            class="card-img-top pt-2 img-fluid"
             alt="Discover Japan"
           />
           <div class="card-body">
@@ -153,13 +169,20 @@
               Embark on a journey to Discover Japan, where ancient traditions
               blend seamlessly with modern wonders.
             </p>
-            <a href="#" class="btn homepageCardBtn">日本を発見</a>
+            <a
+              href="./subpages/discoverJapan.html"
+              class="btn homepageCardBtn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Discover Japan"
+              >日本を発見</a
+            >
           </div>
         </div>
         <div class="card mb-3 col-md-6 col-lg-4 homepageCard">
           <img
             src="./assets/images/culturalTapestry.png"
-            class="card-img-top pt-2"
+            class="card-img-top pt-2 img-fluid"
             alt="Cultural Tapestry"
           />
           <div class="card-body">
@@ -168,13 +191,20 @@
               Explore the rich Cultural Tapestry of Japan, a vibrant fusion of
               art, cuisine, and centuries-old customs.
             </p>
-            <a href="#" class="btn homepageCardBtn">文化の織物</a>
+            <a
+              href="./subpages/culturalTapestry.html"
+              class="btn homepageCardBtn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Cultural Tapestry"
+              >文化の織物</a
+            >
           </div>
         </div>
-        <div class="card mb-3 col-md-6 col-lg-4 homepageCard">
+        <div class="card mb-3 col-md-6 col-lg-4 mx-auto homepageCard">
           <img
             src="./assets/images/landscapeAndClimate.png"
-            class="card-img-top pt-2"
+            class="card-img-top pt-2 img-fluid"
             alt="Land and Climate"
           />
           <div class="card-body">
@@ -183,13 +213,20 @@
               Delve into the diverse Land and Climate of Japan, from snowy peaks
               to subtropical beaches, shaping a land of natural marvels.
             </p>
-            <a href="#" class="btn homepageCardBtn">大地と気候</a>
+            <a
+              href="./subpages/landAndClimate.html"
+              class="btn homepageCardBtn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Land and Climate"
+              >大地と気候</a
+            >
           </div>
         </div>
-        <div class="card mb-3 col-md-6 col-lg-4 homepageCard">
+        <div class="card mb-3 col-md-6 col-lg-4 ml-auto homepageCard">
           <img
             src="./assets/images/historicalJourney.png"
-            class="card-img-top pt-2"
+            class="card-img-top pt-2 img-fluid"
             alt="Historical Journey"
           />
           <div class="card-body">
@@ -198,13 +235,22 @@
               Uncover the layers of Japan's Historical Journey, a saga of
               empires, innovation, and resilience that shaped a nation.
             </p>
-            <a href="#" class="btn homepageCardBtn">歴史の旅</a>
+            <a
+              href="./subpages/historicalJourney.html"
+              class="btn homepageCardBtn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Historical Journey"
+              >歴史の旅</a
+            >
           </div>
         </div>
-        <div class="card mb-3 col-md-6 col-lg-4 homepageCard">
+        <div
+          class="card mb-3 col-md-6 col-lg-4 me-auto mx-md-auto mx-lg-0 me-lg-auto homepageCard"
+        >
           <img
             src="./assets/images/economicalHorizon.png"
-            class="card-img-top pt-2"
+            class="card-img-top pt-2 img-fluid"
             alt="Economical Horizon"
           />
           <div class="card-body">
@@ -214,7 +260,14 @@
               cutting-edge technology and enduring traditions driving global
               progress.
             </p>
-            <a href="#" class="btn homepageCardBtn">経済の地平線</a>
+            <a
+              href="./subpages/ecomonmicalHorizon.html"
+              class="btn homepageCardBtn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Economical Horizon"
+              >経済の地平線</a
+            >
           </div>
         </div>
       </div>
