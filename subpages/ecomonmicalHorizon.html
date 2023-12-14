@@ -34,6 +34,10 @@
         background-color: #296799;
         border-color: #296799;
       }
+      .tabBackground {
+        background-color: #ffb7c5;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
@@ -299,7 +303,11 @@
 
       <!-- Tab content Start -->
       <div class="tab-content">
-        <div class="tab-pane active" id="ehTabOne" role="tabpanel">
+        <div
+          class="tab-pane active tabBackground"
+          id="ehTabOne"
+          role="tabpanel"
+        >
           <div class="row">
             <div class="row mb-3">
               <div class="col-12 col-md-5">
@@ -390,7 +398,7 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane" id="ehTabTwo" role="tabpanel">
+        <div class="tab-pane tabBackground" id="ehTabTwo" role="tabpanel">
           <div class="row">
             <div class="row mb-3">
               <div class="col-12 col-md-5">
@@ -544,7 +552,9 @@
           </div>
           <!-- Tab content end -->
         </div>
-        <div class="tab-pane" id="ehTabThree" role="tabpanel">3</div>
+        <div class="tab-pane tabBackground" id="ehTabThree" role="tabpanel">
+          3
+        </div>
       </div>
     </div>
     <script>

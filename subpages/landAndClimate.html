@@ -35,6 +35,11 @@
         background-color: #296799;
         border-color: #296799;
       }
+      .tabBackground {
+        background-color: #ffb7c5;
+        border-radius: 5px;
+        border: solid #296799;
+      }
     </style>
   </head>
   <body>
@@ -163,6 +168,17 @@
                   role="tab"
                 >
                   Cities and Regions
+                </button>
+              </li>
+              <li class="nav-item mb-3">
+                <button
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ehTabFour"
+                  type="button"
+                  role="tab"
+                >
+                  Famous Location
                 </button>
               </li>
             </ul>
@@ -302,6 +318,17 @@
                 Cities and Regions
               </button>
             </li>
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#ehTabFour"
+                type="button"
+                role="tab"
+              >
+                Famous Locations
+              </button>
+            </li>
           </ul>
         </div>
         <!-- Tab end -->
@@ -317,7 +344,11 @@
       </div>
       <!-- Tab content Start -->
       <div class="tab-content">
-        <div class="tab-pane active" id="ehTabOne" role="tabpanel">
+        <div
+          class="tab-pane active tabBackground"
+          id="ehTabOne"
+          role="tabpanel"
+        >
           <div class="row">
             <div class="row mb-3">
               <div class="col-12 col-md-5">
@@ -468,7 +499,7 @@
             </div> -->
           </div>
         </div>
-        <div class="tab-pane" id="ehTabTwo" role="tabpanel">
+        <div class="tab-pane tabBackground" id="ehTabTwo" role="tabpanel">
           <div class="row">
             <div class="row mb-3">
               <div class="col-12 col-md-5">
@@ -560,7 +591,7 @@
           </div>
         </div>
         <!-- Tab content end -->
-        <div class="tab-pane" id="ehTabThree" role="tabpanel">
+        <div class="tab-pane tabBackground" id="ehTabThree" role="tabpanel">
           <div class="row mb-3">
             <div class="col-12 col-md-5">
               <img
@@ -574,12 +605,7 @@
                 Important Regions
                 <!-- (重要な地域) -->
               </h1>
-              <p>
-                Japan is divided into several distinct regions. Each of these
-                regions contributes to the rich tapestry of Japanese culture,
-                history, and natural beauty. The key regions in Japan are as
-                follows:
-              </p>
+              <p>Japan is divided into several distinct regions.</p>
               <ol>
                 <li>
                   <span class="fw-bold">Hokkaido:</span> Located in the north,
@@ -659,6 +685,46 @@
                 Major Cities
                 <!-- (重要な地域) -->
               </h1>
+              <p>
+                Japan's is home to many major cities, with a few of the most
+                notable examples being Tokyo, Kyoto, Osaka, Hiroshima, and
+                Yokohama.Tokyo is the capital and the largest city in Japan.
+                Tokyo is a well known for its skyscrapers, bustling streets,
+                cutting-edge technology, and vibrant pop culture. Key districts
+                of Tokyo include Shinjuku, Shibuya, Ginza, and Akihabara. Kyoto
+                was once the capital of Japan, and today remains the heart of
+                traditional Japanese culture and is famous for its classical
+                Buddhist temples. Osaka, on the other hand, is Known for its
+                modern architecture, exuberant nightlife, and delicious street
+                food, Osaka is a bustling hub of commerce and culture. The city
+                is famous for its Dotonbori district, Osaka Castle, and
+                Universal Studios Japan. In addition to these other cities,
+                Japan is home to the city of Hiroshima. Devastated in WWII
+                Hiroshima has since rebuilt itself into a city of peace and
+                culture. The Hiroshima Peace Memorial Park and Miyajima Island
+                with its floating torii gate are considered by many to be
+                must-visit destinations. Finally, just south of Tokyo, Yokohama
+                is Japan's second-largest city and has one of the world's
+                largest Chinatowns. It's also known for the Sankeien Garden, the
+                futuristic Minato Mirai district, and the Ramen Museum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane tabBackground" id="ehTabFour" role="tabpanel">
+          <div class="row mb-3">
+            <div class="col-12 col-md-5">
+              <img
+                class="img-fluid"
+                src="../assets/images/land&Climate/famousLocations/imperialPalace.jpg"
+                alt="Image of the Imperial Palace"
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>
+                Japanese Imperial Palace
+                <!-- (重要な地域) -->
+              </h1>
               <p></p>
             </div>
           </div>
@@ -666,8 +732,56 @@
             <div class="col-12 col-md-5">
               <img
                 class="img-fluid"
-                src="../assets/images/land&Climate/famousLocations.png"
-                alt="Image render of famous places in Japan"
+                src="../assets/images/land&Climate/famousLocations/hiroshimaPeaceMemorial.jpg"
+                alt="Image of the Hiroshima Peace Memorial Park"
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>
+                Famous Locations
+                <!-- (重要な地域) -->
+              </h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12 col-md-5">
+              <img
+                class="img-fluid"
+                src="../assets/images/land&Climate/famousLocations/ItsukushimaShrine.jpg"
+                alt="Image of the Island Shrine of Itsukushima"
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>
+                Famous Locations
+                <!-- (重要な地域) -->
+              </h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12 col-md-5">
+              <img
+                class="img-fluid"
+                src="../assets/images/land&Climate/famousLocations/osakaCastle.jpg"
+                alt="Image of Osaka Castle"
+              />
+            </div>
+            <div class="col-12 col-md-7">
+              <h1>
+                Osaka Castle
+                <!-- (重要な地域) -->
+              </h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12 col-md-5">
+              <img
+                class="img-fluid"
+                src="../assets/images/land&Climate/famousLocations/koyasanOkunoin.jpg"
+                alt="Image of the Kayasan Okunoin shrine"
               />
             </div>
             <div class="col-12 col-md-7">
