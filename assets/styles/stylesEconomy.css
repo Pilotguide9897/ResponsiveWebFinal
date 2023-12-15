@@ -4,7 +4,6 @@ body {
 .nav-pills .nav-link {
   background-color: #ffb7c5;
   color: #f8f8f8;
-  border-bottom: #296799;
 }
 .nav-pills .nav-link.active {
   background-color: #faa4b4;
